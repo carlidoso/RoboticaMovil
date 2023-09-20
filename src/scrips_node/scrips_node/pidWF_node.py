@@ -10,7 +10,7 @@ class pidWF_node(Node):
         self.error_mio = 0.0
         self.lado = 0.0
         self.kp = 2.0
-        self.kd = 2.0
+        self.kd = 2.1
         self.der = 0.0
         self.cd = 0.0
         self.cd2 = 0.0
