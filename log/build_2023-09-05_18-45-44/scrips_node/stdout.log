@@ -1,0 +1,17 @@
+running develop
+running egg_info
+writing scrips_node.egg-info/PKG-INFO
+writing dependency_links to scrips_node.egg-info/dependency_links.txt
+writing entry points to scrips_node.egg-info/entry_points.txt
+writing requirements to scrips_node.egg-info/requires.txt
+writing top-level names to scrips_node.egg-info/top_level.txt
+reading manifest file 'scrips_node.egg-info/SOURCES.txt'
+writing manifest file 'scrips_node.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/carloso/ros2_ws_23_2/install/scrips_node/lib/python3.10/site-packages/scrips-node.egg-link (link to .)
+Installing ackerman_node script to /home/carloso/ros2_ws_23_2/install/scrips_node/lib/scrips_node
+Installing laser_node script to /home/carloso/ros2_ws_23_2/install/scrips_node/lib/scrips_node
+
+Installed /home/carloso/ros2_ws_23_2/build/scrips_node
+running install_data
+copying package.xml -> /home/carloso/ros2_ws_23_2/install/scrips_node/share/scrips_node

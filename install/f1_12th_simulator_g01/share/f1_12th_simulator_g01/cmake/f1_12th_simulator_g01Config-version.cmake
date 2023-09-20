@@ -1,0 +1,1 @@
+/home/carloso/ros2_ws_23_2/build/f1_12th_simulator_g01/ament_cmake_core/f1_12th_simulator_g01Config-version.cmake

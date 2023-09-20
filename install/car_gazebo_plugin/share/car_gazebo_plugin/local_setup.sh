@@ -1,0 +1,1 @@
+/home/carloso/ros2_ws_23_2/build/car_gazebo_plugin/ament_cmake_environment_hooks/local_setup.sh

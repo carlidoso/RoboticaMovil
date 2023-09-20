@@ -1,0 +1,3 @@
+gmake[2]: *** No hay ninguna regla para construir el objetivo 'CMakeFiles/ackerman_node.dir/build'.  Alto.
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/ackerman_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

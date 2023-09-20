@@ -1,0 +1,30 @@
+[0.023s] Invoking command in '/home/carloso/ros2_ws_23_2/build/f1_12th_simulator_g01': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/carloso/ros2_ws_23_2/build/f1_12th_simulator_g01 -- -j8 -l8
+[0.081s] Invoked command in '/home/carloso/ros2_ws_23_2/build/f1_12th_simulator_g01' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/carloso/ros2_ws_23_2/build/f1_12th_simulator_g01 -- -j8 -l8
+[0.119s] Invoking command in '/home/carloso/ros2_ws_23_2/build/f1_12th_simulator_g01': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/carloso/ros2_ws_23_2/build/f1_12th_simulator_g01
+[0.131s] -- Install configuration: ""
+[0.132s] -- Execute custom install script
+[0.132s] -- Up-to-date symlink: /home/carloso/ros2_ws_23_2/install/f1_12th_simulator_g01/share/f1_12th_simulator_g01/config/empty.yaml
+[0.132s] -- Up-to-date symlink: /home/carloso/ros2_ws_23_2/install/f1_12th_simulator_g01/share/f1_12th_simulator_g01/description/gazebo_control.xacro
+[0.133s] -- Up-to-date symlink: /home/carloso/ros2_ws_23_2/install/f1_12th_simulator_g01/share/f1_12th_simulator_g01/description/inertial_macros.xacro
+[0.133s] -- Up-to-date symlink: /home/carloso/ros2_ws_23_2/install/f1_12th_simulator_g01/share/f1_12th_simulator_g01/description/properties.xacro
+[0.133s] -- Up-to-date symlink: /home/carloso/ros2_ws_23_2/install/f1_12th_simulator_g01/share/f1_12th_simulator_g01/description/robot.urdf.xacro
+[0.133s] -- Up-to-date symlink: /home/carloso/ros2_ws_23_2/install/f1_12th_simulator_g01/share/f1_12th_simulator_g01/description/robot_core.xacro
+[0.133s] -- Up-to-date symlink: /home/carloso/ros2_ws_23_2/install/f1_12th_simulator_g01/share/f1_12th_simulator_g01/launch/launch_sim.launch.py
+[0.133s] -- Up-to-date symlink: /home/carloso/ros2_ws_23_2/install/f1_12th_simulator_g01/share/f1_12th_simulator_g01/launch/rsp.launch.py
+[0.134s] -- Up-to-date symlink: /home/carloso/ros2_ws_23_2/install/f1_12th_simulator_g01/share/f1_12th_simulator_g01/worlds/empty.world
+[0.134s] -- Up-to-date symlink: /home/carloso/ros2_ws_23_2/install/f1_12th_simulator_g01/share/ament_index/resource_index/package_run_dependencies/f1_12th_simulator_g01
+[0.134s] -- Up-to-date symlink: /home/carloso/ros2_ws_23_2/install/f1_12th_simulator_g01/share/ament_index/resource_index/parent_prefix_path/f1_12th_simulator_g01
+[0.134s] -- Up-to-date symlink: /home/carloso/ros2_ws_23_2/install/f1_12th_simulator_g01/share/f1_12th_simulator_g01/environment/ament_prefix_path.sh
+[0.134s] -- Up-to-date symlink: /home/carloso/ros2_ws_23_2/install/f1_12th_simulator_g01/share/f1_12th_simulator_g01/environment/ament_prefix_path.dsv
+[0.134s] -- Up-to-date symlink: /home/carloso/ros2_ws_23_2/install/f1_12th_simulator_g01/share/f1_12th_simulator_g01/environment/path.sh
+[0.135s] -- Up-to-date symlink: /home/carloso/ros2_ws_23_2/install/f1_12th_simulator_g01/share/f1_12th_simulator_g01/environment/path.dsv
+[0.135s] -- Up-to-date symlink: /home/carloso/ros2_ws_23_2/install/f1_12th_simulator_g01/share/f1_12th_simulator_g01/local_setup.bash
+[0.135s] -- Up-to-date symlink: /home/carloso/ros2_ws_23_2/install/f1_12th_simulator_g01/share/f1_12th_simulator_g01/local_setup.sh
+[0.135s] -- Up-to-date symlink: /home/carloso/ros2_ws_23_2/install/f1_12th_simulator_g01/share/f1_12th_simulator_g01/local_setup.zsh
+[0.135s] -- Up-to-date symlink: /home/carloso/ros2_ws_23_2/install/f1_12th_simulator_g01/share/f1_12th_simulator_g01/local_setup.dsv
+[0.135s] -- Symlinking: /home/carloso/ros2_ws_23_2/install/f1_12th_simulator_g01/share/f1_12th_simulator_g01/package.dsv
+[0.148s] -- Up-to-date symlink: /home/carloso/ros2_ws_23_2/install/f1_12th_simulator_g01/share/ament_index/resource_index/packages/f1_12th_simulator_g01
+[0.149s] -- Up-to-date symlink: /home/carloso/ros2_ws_23_2/install/f1_12th_simulator_g01/share/f1_12th_simulator_g01/cmake/f1_12th_simulator_g01Config.cmake
+[0.149s] -- Up-to-date symlink: /home/carloso/ros2_ws_23_2/install/f1_12th_simulator_g01/share/f1_12th_simulator_g01/cmake/f1_12th_simulator_g01Config-version.cmake
+[0.149s] -- Up-to-date symlink: /home/carloso/ros2_ws_23_2/install/f1_12th_simulator_g01/share/f1_12th_simulator_g01/package.xml
+[0.157s] Invoked command in '/home/carloso/ros2_ws_23_2/build/f1_12th_simulator_g01' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/carloso/ros2_ws_23_2/build/f1_12th_simulator_g01

@@ -1,0 +1,20 @@
+[7.715s] Invoking command in '/home/carloso/ros2_ws_23_2/build/launch_pkg_gYY': PYTHONPATH=/home/carloso/ros2_ws_23_2/build/launch_pkg_gYY/prefix_override:/home/carloso/ros2_ws_23_2/install/launch_pkg_gYY/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/carloso/ros2_ws_23_2/build/launch_pkg_gYY/build --no-deps install_data
+[9.789s] running develop
+[9.796s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[9.798s]   warnings.warn(
+[9.804s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[9.805s]   warnings.warn(
+[11.376s] running egg_info
+[11.378s] writing launch_pkg_gYY.egg-info/PKG-INFO
+[11.379s] writing dependency_links to launch_pkg_gYY.egg-info/dependency_links.txt
+[11.386s] writing entry points to launch_pkg_gYY.egg-info/entry_points.txt
+[11.390s] writing requirements to launch_pkg_gYY.egg-info/requires.txt
+[11.391s] writing top-level names to launch_pkg_gYY.egg-info/top_level.txt
+[11.408s] reading manifest file 'launch_pkg_gYY.egg-info/SOURCES.txt'
+[11.411s] writing manifest file 'launch_pkg_gYY.egg-info/SOURCES.txt'
+[11.415s] running build_ext
+[11.415s] Creating /home/carloso/ros2_ws_23_2/install/launch_pkg_gYY/lib/python3.10/site-packages/launch-pkg-gYY.egg-link (link to .)
+[11.417s] 
+[11.417s] Installed /home/carloso/ros2_ws_23_2/build/launch_pkg_gYY
+[11.420s] running install_data
+[11.880s] Invoked command in '/home/carloso/ros2_ws_23_2/build/launch_pkg_gYY' returned '0': PYTHONPATH=/home/carloso/ros2_ws_23_2/build/launch_pkg_gYY/prefix_override:/home/carloso/ros2_ws_23_2/install/launch_pkg_gYY/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/carloso/ros2_ws_23_2/build/launch_pkg_gYY/build --no-deps install_data

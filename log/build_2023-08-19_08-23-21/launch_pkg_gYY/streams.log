@@ -1,0 +1,20 @@
+[1.680s] Invoking command in '/home/carloso/ros2_ws_23_2/build/launch_pkg_gYY': PYTHONPATH=/home/carloso/ros2_ws_23_2/build/launch_pkg_gYY/prefix_override:/home/carloso/ros2_ws_23_2/install/launch_pkg_gYY/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/carloso/ros2_ws_23_2/build/launch_pkg_gYY/build --no-deps install_data
+[1.927s] running develop
+[1.927s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[1.927s]   warnings.warn(
+[1.928s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[1.928s]   warnings.warn(
+[2.090s] running egg_info
+[2.091s] writing launch_pkg_gYY.egg-info/PKG-INFO
+[2.091s] writing dependency_links to launch_pkg_gYY.egg-info/dependency_links.txt
+[2.091s] writing entry points to launch_pkg_gYY.egg-info/entry_points.txt
+[2.091s] writing requirements to launch_pkg_gYY.egg-info/requires.txt
+[2.091s] writing top-level names to launch_pkg_gYY.egg-info/top_level.txt
+[2.093s] reading manifest file 'launch_pkg_gYY.egg-info/SOURCES.txt'
+[2.094s] writing manifest file 'launch_pkg_gYY.egg-info/SOURCES.txt'
+[2.096s] running build_ext
+[2.096s] Creating /home/carloso/ros2_ws_23_2/install/launch_pkg_gYY/lib/python3.10/site-packages/launch-pkg-gYY.egg-link (link to .)
+[2.097s] 
+[2.097s] Installed /home/carloso/ros2_ws_23_2/build/launch_pkg_gYY
+[2.098s] running install_data
+[2.151s] Invoked command in '/home/carloso/ros2_ws_23_2/build/launch_pkg_gYY' returned '0': PYTHONPATH=/home/carloso/ros2_ws_23_2/build/launch_pkg_gYY/prefix_override:/home/carloso/ros2_ws_23_2/install/launch_pkg_gYY/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/carloso/ros2_ws_23_2/build/launch_pkg_gYY/build --no-deps install_data

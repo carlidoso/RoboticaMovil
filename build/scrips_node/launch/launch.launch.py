@@ -1,0 +1,1 @@
+/home/carloso/ros2_ws_23_2/src/scrips_node/launch/launch.launch.py

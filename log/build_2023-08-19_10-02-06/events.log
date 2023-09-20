@@ -1,0 +1,616 @@
+[0.000000] (-) TimerEvent: {}
+[0.000097] (car_gazebo_plugin) JobQueued: {'identifier': 'car_gazebo_plugin', 'dependencies': OrderedDict()}
+[0.000219] (f1_12th_simulator_g01) JobQueued: {'identifier': 'f1_12th_simulator_g01', 'dependencies': OrderedDict()}
+[0.000255] (sim_car) JobQueued: {'identifier': 'sim_car', 'dependencies': OrderedDict()}
+[0.000275] (car_gazebo_plugin) JobStarted: {'identifier': 'car_gazebo_plugin'}
+[0.009108] (f1_12th_simulator_g01) JobStarted: {'identifier': 'f1_12th_simulator_g01'}
+[0.013368] (sim_car) JobStarted: {'identifier': 'sim_car'}
+[0.020531] (car_gazebo_plugin) JobProgress: {'identifier': 'car_gazebo_plugin', 'progress': 'cmake'}
+[0.020751] (car_gazebo_plugin) Command: {'cmd': ['/usr/bin/cmake', '/home/carloso/ros2_ws_23_2/src/sim_car/car_gazebo_plugin', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/carloso/ros2_ws_23_2/install/car_gazebo_plugin'], 'cwd': '/home/carloso/ros2_ws_23_2/build/car_gazebo_plugin', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'es_CO:es'), ('USER', 'carloso'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/carloso'), ('OLDPWD', '/home/carloso'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1067'), ('SYSTEMD_EXEC_PID', '1227'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '13331'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/carloso/ros2_ws_23_2/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'carloso'), ('JOURNAL_STREAM', '8:28196'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'carloso'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/carloso-TUF-GAMING-FX504GE-FX80GE:@/tmp/.ICE-unix/1203,unix/carloso-TUF-GAMING-FX504GE-FX80GE:/tmp/.ICE-unix/1203'), ('INVOCATION_ID', '01a5a4313dc34f5ab0bbcabb526dd6e1'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'es_CO.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.97BGA2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/carloso/ros2_ws_23_2/install/turtle_move_pkg_gYY:/home/carloso/ros2_ws_23_2/install/sim_car:/home/carloso/ros2_ws_23_2/install/launch_pkg_gYY:/home/carloso/ros2_ws_23_2/install/joy_tester:/home/carloso/ros2_ws_23_2/install/f1_12th_simulator_g01:/home/carloso/ros2_ws_23_2/install/car_gazebo_plugin:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:a6d280a3-0efb-4687-aefd-fe7ee8b2b0fe'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/carloso/ros2_ws_23_2/build/car_gazebo_plugin'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/carloso/ros2_ws_23_2/build/turtle_move_pkg_gYY:/home/carloso/ros2_ws_23_2/install/turtle_move_pkg_gYY/lib/python3.10/site-packages:/home/carloso/ros2_ws_23_2/build/launch_pkg_gYY:/home/carloso/ros2_ws_23_2/install/launch_pkg_gYY/lib/python3.10/site-packages:/home/carloso/ros2_ws_23_2/build/joy_tester:/home/carloso/ros2_ws_23_2/install/joy_tester/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/carloso/ros2_ws_23_2/install/sim_car:/home/carloso/ros2_ws_23_2/install/f1_12th_simulator_g01:/home/carloso/ros2_ws_23_2/install/car_gazebo_plugin:/home/carloso/ros2_ws_23_2/install/turtle_move_pkg_gYY:/home/carloso/ros2_ws_23_2/install/launch_pkg_gYY:/home/carloso/ros2_ws_23_2/install/joy_tester:/opt/ros/humble')]), 'shell': False}
+[0.024002] (f1_12th_simulator_g01) JobProgress: {'identifier': 'f1_12th_simulator_g01', 'progress': 'cmake'}
+[0.024221] (f1_12th_simulator_g01) Command: {'cmd': ['/usr/bin/cmake', '/home/carloso/ros2_ws_23_2/src/f1_12th_simulator_g01', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/carloso/ros2_ws_23_2/install/f1_12th_simulator_g01'], 'cwd': '/home/carloso/ros2_ws_23_2/build/f1_12th_simulator_g01', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'es_CO:es'), ('USER', 'carloso'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/carloso'), ('OLDPWD', '/home/carloso'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1067'), ('SYSTEMD_EXEC_PID', '1227'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '13331'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/carloso/ros2_ws_23_2/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'carloso'), ('JOURNAL_STREAM', '8:28196'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'carloso'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/carloso-TUF-GAMING-FX504GE-FX80GE:@/tmp/.ICE-unix/1203,unix/carloso-TUF-GAMING-FX504GE-FX80GE:/tmp/.ICE-unix/1203'), ('INVOCATION_ID', '01a5a4313dc34f5ab0bbcabb526dd6e1'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'es_CO.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.97BGA2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/carloso/ros2_ws_23_2/install/turtle_move_pkg_gYY:/home/carloso/ros2_ws_23_2/install/sim_car:/home/carloso/ros2_ws_23_2/install/launch_pkg_gYY:/home/carloso/ros2_ws_23_2/install/joy_tester:/home/carloso/ros2_ws_23_2/install/f1_12th_simulator_g01:/home/carloso/ros2_ws_23_2/install/car_gazebo_plugin:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:a6d280a3-0efb-4687-aefd-fe7ee8b2b0fe'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/carloso/ros2_ws_23_2/build/f1_12th_simulator_g01'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/carloso/ros2_ws_23_2/build/turtle_move_pkg_gYY:/home/carloso/ros2_ws_23_2/install/turtle_move_pkg_gYY/lib/python3.10/site-packages:/home/carloso/ros2_ws_23_2/build/launch_pkg_gYY:/home/carloso/ros2_ws_23_2/install/launch_pkg_gYY/lib/python3.10/site-packages:/home/carloso/ros2_ws_23_2/build/joy_tester:/home/carloso/ros2_ws_23_2/install/joy_tester/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/carloso/ros2_ws_23_2/install/sim_car:/home/carloso/ros2_ws_23_2/install/f1_12th_simulator_g01:/home/carloso/ros2_ws_23_2/install/car_gazebo_plugin:/home/carloso/ros2_ws_23_2/install/turtle_move_pkg_gYY:/home/carloso/ros2_ws_23_2/install/launch_pkg_gYY:/home/carloso/ros2_ws_23_2/install/joy_tester:/opt/ros/humble')]), 'shell': False}
+[0.028202] (sim_car) JobProgress: {'identifier': 'sim_car', 'progress': 'cmake'}
+[0.028707] (sim_car) Command: {'cmd': ['/usr/bin/cmake', '/home/carloso/ros2_ws_23_2/src/sim_car/car_description', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/carloso/ros2_ws_23_2/install/sim_car'], 'cwd': '/home/carloso/ros2_ws_23_2/build/sim_car', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'es_CO:es'), ('USER', 'carloso'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/carloso'), ('OLDPWD', '/home/carloso'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1067'), ('SYSTEMD_EXEC_PID', '1227'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '13331'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/carloso/ros2_ws_23_2/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'carloso'), ('JOURNAL_STREAM', '8:28196'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'carloso'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/carloso-TUF-GAMING-FX504GE-FX80GE:@/tmp/.ICE-unix/1203,unix/carloso-TUF-GAMING-FX504GE-FX80GE:/tmp/.ICE-unix/1203'), ('INVOCATION_ID', '01a5a4313dc34f5ab0bbcabb526dd6e1'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'es_CO.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.97BGA2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/carloso/ros2_ws_23_2/install/turtle_move_pkg_gYY:/home/carloso/ros2_ws_23_2/install/sim_car:/home/carloso/ros2_ws_23_2/install/launch_pkg_gYY:/home/carloso/ros2_ws_23_2/install/joy_tester:/home/carloso/ros2_ws_23_2/install/f1_12th_simulator_g01:/home/carloso/ros2_ws_23_2/install/car_gazebo_plugin:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:a6d280a3-0efb-4687-aefd-fe7ee8b2b0fe'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/carloso/ros2_ws_23_2/build/sim_car'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/carloso/ros2_ws_23_2/build/turtle_move_pkg_gYY:/home/carloso/ros2_ws_23_2/install/turtle_move_pkg_gYY/lib/python3.10/site-packages:/home/carloso/ros2_ws_23_2/build/launch_pkg_gYY:/home/carloso/ros2_ws_23_2/install/launch_pkg_gYY/lib/python3.10/site-packages:/home/carloso/ros2_ws_23_2/build/joy_tester:/home/carloso/ros2_ws_23_2/install/joy_tester/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/carloso/ros2_ws_23_2/install/sim_car:/home/carloso/ros2_ws_23_2/install/f1_12th_simulator_g01:/home/carloso/ros2_ws_23_2/install/car_gazebo_plugin:/home/carloso/ros2_ws_23_2/install/turtle_move_pkg_gYY:/home/carloso/ros2_ws_23_2/install/launch_pkg_gYY:/home/carloso/ros2_ws_23_2/install/joy_tester:/opt/ros/humble')]), 'shell': False}
+[0.099283] (-) TimerEvent: {}
+[0.199861] (-) TimerEvent: {}
+[0.300537] (-) TimerEvent: {}
+[0.342824] (car_gazebo_plugin) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.345938] (f1_12th_simulator_g01) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.346110] (sim_car) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.400715] (-) TimerEvent: {}
+[0.501253] (-) TimerEvent: {}
+[0.601591] (-) TimerEvent: {}
+[0.622075] (car_gazebo_plugin) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.622328] (f1_12th_simulator_g01) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.622670] (sim_car) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.640816] (sim_car) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.641708] (car_gazebo_plugin) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.642161] (f1_12th_simulator_g01) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.701762] (-) TimerEvent: {}
+[0.794035] (car_gazebo_plugin) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.794229] (f1_12th_simulator_g01) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.794399] (sim_car) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.801450] (sim_car) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.801804] (-) TimerEvent: {}
+[0.802123] (sim_car) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.802801] (sim_car) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.805276] (car_gazebo_plugin) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.805574] (car_gazebo_plugin) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.805994] (car_gazebo_plugin) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.807091] (f1_12th_simulator_g01) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.807543] (sim_car) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.807634] (f1_12th_simulator_g01) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.808105] (f1_12th_simulator_g01) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.809049] (car_gazebo_plugin) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.812287] (f1_12th_simulator_g01) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.892057] (f1_12th_simulator_g01) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.892391] (sim_car) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.892497] (car_gazebo_plugin) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.901924] (-) TimerEvent: {}
+[0.905271] (car_gazebo_plugin) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.905554] (f1_12th_simulator_g01) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.905731] (car_gazebo_plugin) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.905877] (sim_car) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.906023] (f1_12th_simulator_g01) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.906187] (car_gazebo_plugin) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.906298] (sim_car) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.906628] (f1_12th_simulator_g01) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.906837] (sim_car) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.910525] (sim_car) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.910627] (f1_12th_simulator_g01) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.919394] (car_gazebo_plugin) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) at /usr/share/cmake-3.22/Modules/FindPackageHandleStandardArgs.cmake:438 (message):\n'}
+[0.919579] (car_gazebo_plugin) StderrLine: {'line': b'  The package name passed to `find_package_handle_standard_args` (PkgConfig)\n'}
+[0.919697] (car_gazebo_plugin) StderrLine: {'line': b'  does not match the name of the calling package (gazebo).  This can lead to\n'}
+[0.919826] (car_gazebo_plugin) StderrLine: {'line': b'  problems in calling code that expects `find_package` result variables\n'}
+[0.919954] (car_gazebo_plugin) StderrLine: {'line': b'  (e.g., `_FOUND`) to follow a certain pattern.\n'}
+[0.920081] (car_gazebo_plugin) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[0.920195] (car_gazebo_plugin) StderrLine: {'line': b'  /usr/share/cmake-3.22/Modules/FindPkgConfig.cmake:99 (find_package_handle_standard_args)\n'}
+[0.920320] (car_gazebo_plugin) StderrLine: {'line': b'  /usr/lib/x86_64-linux-gnu/cmake/gazebo/gazebo-config.cmake:72 (include)\n'}
+[0.920444] (car_gazebo_plugin) StderrLine: {'line': b'  CMakeLists.txt:14 (find_package)\n'}
+[0.920567] (car_gazebo_plugin) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[0.920677] (car_gazebo_plugin) StderrLine: {'line': b'\x1b[0m\n'}
+[0.920799] (car_gazebo_plugin) StdoutLine: {'line': b'-- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.2") \n'}
+[0.923709] (car_gazebo_plugin) StdoutLine: {'line': b"-- Checking for module 'bullet>=2.82'\n"}
+[0.942374] (car_gazebo_plugin) StdoutLine: {'line': b'--   Found bullet, version 3.05\n'}
+[1.002054] (-) TimerEvent: {}
+[1.050571] (car_gazebo_plugin) StdoutLine: {'line': b'-- Found fcl: /usr/include (found suitable version "0.7.0", minimum required is "0.5.0") \n'}
+[1.087511] (f1_12th_simulator_g01) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter \n'}
+[1.088903] (sim_car) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter \n'}
+[1.098456] (car_gazebo_plugin) StdoutLine: {'line': b'-- Found assimp: /usr/include (found version "5.2.0") \n'}
+[1.102148] (-) TimerEvent: {}
+[1.137209] (car_gazebo_plugin) StdoutLine: {'line': b'-- Found DART: /usr/include (Required is at least version "6.6") found components: dart \n'}
+[1.174235] (f1_12th_simulator_g01) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[1.174380] (sim_car) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[1.202322] (-) TimerEvent: {}
+[1.303138] (f1_12th_simulator_g01) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.7 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[1.303726] (-) TimerEvent: {}
+[1.307432] (sim_car) StdoutLine: {'line': b'-- Found rclcpp: 16.0.5 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[1.403864] (-) TimerEvent: {}
+[1.439627] (sim_car) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[1.451744] (sim_car) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[1.466804] (f1_12th_simulator_g01) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[1.470159] (sim_car) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[1.473632] (car_gazebo_plugin) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found suitable version "1.74.0", minimum required is "1.40.0") found components: thread system filesystem program_options regex iostreams date_time \n'}
+[1.479734] (f1_12th_simulator_g01) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[1.482145] (f1_12th_simulator_g01) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[1.483759] (f1_12th_simulator_g01) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[1.491145] (f1_12th_simulator_g01) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[1.495068] (f1_12th_simulator_g01) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.499357] (f1_12th_simulator_g01) StdoutLine: {'line': b'-- Generating done\n'}
+[1.500696] (f1_12th_simulator_g01) StdoutLine: {'line': b'-- Build files have been written to: /home/carloso/ros2_ws_23_2/build/f1_12th_simulator_g01\n'}
+[1.501086] (sim_car) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.503964] (-) TimerEvent: {}
+[1.506164] (f1_12th_simulator_g01) CommandEnded: {'returncode': 0}
+[1.508247] (f1_12th_simulator_g01) JobProgress: {'identifier': 'f1_12th_simulator_g01', 'progress': 'build'}
+[1.508328] (f1_12th_simulator_g01) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/carloso/ros2_ws_23_2/build/f1_12th_simulator_g01', '--', '-j8', '-l8'], 'cwd': '/home/carloso/ros2_ws_23_2/build/f1_12th_simulator_g01', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'es_CO:es'), ('USER', 'carloso'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/carloso'), ('OLDPWD', '/home/carloso'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1067'), ('SYSTEMD_EXEC_PID', '1227'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '13331'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/carloso/ros2_ws_23_2/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'carloso'), ('JOURNAL_STREAM', '8:28196'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'carloso'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/carloso-TUF-GAMING-FX504GE-FX80GE:@/tmp/.ICE-unix/1203,unix/carloso-TUF-GAMING-FX504GE-FX80GE:/tmp/.ICE-unix/1203'), ('INVOCATION_ID', '01a5a4313dc34f5ab0bbcabb526dd6e1'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'es_CO.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.97BGA2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/carloso/ros2_ws_23_2/install/turtle_move_pkg_gYY:/home/carloso/ros2_ws_23_2/install/sim_car:/home/carloso/ros2_ws_23_2/install/launch_pkg_gYY:/home/carloso/ros2_ws_23_2/install/joy_tester:/home/carloso/ros2_ws_23_2/install/f1_12th_simulator_g01:/home/carloso/ros2_ws_23_2/install/car_gazebo_plugin:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:a6d280a3-0efb-4687-aefd-fe7ee8b2b0fe'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/carloso/ros2_ws_23_2/build/f1_12th_simulator_g01'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/carloso/ros2_ws_23_2/build/turtle_move_pkg_gYY:/home/carloso/ros2_ws_23_2/install/turtle_move_pkg_gYY/lib/python3.10/site-packages:/home/carloso/ros2_ws_23_2/build/launch_pkg_gYY:/home/carloso/ros2_ws_23_2/install/launch_pkg_gYY/lib/python3.10/site-packages:/home/carloso/ros2_ws_23_2/build/joy_tester:/home/carloso/ros2_ws_23_2/install/joy_tester/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/carloso/ros2_ws_23_2/install/sim_car:/home/carloso/ros2_ws_23_2/install/f1_12th_simulator_g01:/home/carloso/ros2_ws_23_2/install/car_gazebo_plugin:/home/carloso/ros2_ws_23_2/install/turtle_move_pkg_gYY:/home/carloso/ros2_ws_23_2/install/launch_pkg_gYY:/home/carloso/ros2_ws_23_2/install/joy_tester:/opt/ros/humble')]), 'shell': False}
+[1.510747] (car_gazebo_plugin) StdoutLine: {'line': b'-- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found version "3.12.4") \n'}
+[1.518533] (car_gazebo_plugin) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.12.0\n'}
+[1.539011] (car_gazebo_plugin) StdoutLine: {'line': b'-- Searching for dependencies of ignition-math6\n'}
+[1.542229] (car_gazebo_plugin) StdoutLine: {'line': b'-- Looking for OGRE...\n'}
+[1.542810] (car_gazebo_plugin) StdoutLine: {'line': b'-- OGRE_PREFIX_WATCH changed.\n'}
+[1.543697] (sim_car) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.548559] (car_gazebo_plugin) StdoutLine: {'line': b"-- Checking for module 'OGRE'\n"}
+[1.549093] (f1_12th_simulator_g01) CommandEnded: {'returncode': 0}
+[1.559830] (car_gazebo_plugin) StdoutLine: {'line': b'--   Found OGRE, version 1.9.0\n'}
+[1.568209] (f1_12th_simulator_g01) JobProgress: {'identifier': 'f1_12th_simulator_g01', 'progress': 'install'}
+[1.576554] (f1_12th_simulator_g01) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/carloso/ros2_ws_23_2/build/f1_12th_simulator_g01'], 'cwd': '/home/carloso/ros2_ws_23_2/build/f1_12th_simulator_g01', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'es_CO:es'), ('USER', 'carloso'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/carloso'), ('OLDPWD', '/home/carloso'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1067'), ('SYSTEMD_EXEC_PID', '1227'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '13331'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/carloso/ros2_ws_23_2/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'carloso'), ('JOURNAL_STREAM', '8:28196'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'carloso'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/carloso-TUF-GAMING-FX504GE-FX80GE:@/tmp/.ICE-unix/1203,unix/carloso-TUF-GAMING-FX504GE-FX80GE:/tmp/.ICE-unix/1203'), ('INVOCATION_ID', '01a5a4313dc34f5ab0bbcabb526dd6e1'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'es_CO.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.97BGA2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/carloso/ros2_ws_23_2/install/turtle_move_pkg_gYY:/home/carloso/ros2_ws_23_2/install/sim_car:/home/carloso/ros2_ws_23_2/install/launch_pkg_gYY:/home/carloso/ros2_ws_23_2/install/joy_tester:/home/carloso/ros2_ws_23_2/install/f1_12th_simulator_g01:/home/carloso/ros2_ws_23_2/install/car_gazebo_plugin:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:a6d280a3-0efb-4687-aefd-fe7ee8b2b0fe'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/carloso/ros2_ws_23_2/build/f1_12th_simulator_g01'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/carloso/ros2_ws_23_2/build/turtle_move_pkg_gYY:/home/carloso/ros2_ws_23_2/install/turtle_move_pkg_gYY/lib/python3.10/site-packages:/home/carloso/ros2_ws_23_2/build/launch_pkg_gYY:/home/carloso/ros2_ws_23_2/install/launch_pkg_gYY/lib/python3.10/site-packages:/home/carloso/ros2_ws_23_2/build/joy_tester:/home/carloso/ros2_ws_23_2/install/joy_tester/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/carloso/ros2_ws_23_2/install/sim_car:/home/carloso/ros2_ws_23_2/install/f1_12th_simulator_g01:/home/carloso/ros2_ws_23_2/install/car_gazebo_plugin:/home/carloso/ros2_ws_23_2/install/turtle_move_pkg_gYY:/home/carloso/ros2_ws_23_2/install/launch_pkg_gYY:/home/carloso/ros2_ws_23_2/install/joy_tester:/opt/ros/humble')]), 'shell': False}
+[1.583277] (f1_12th_simulator_g01) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[1.583835] (f1_12th_simulator_g01) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[1.584608] (f1_12th_simulator_g01) StdoutLine: {'line': b'-- Symlinking: /home/carloso/ros2_ws_23_2/install/f1_12th_simulator_g01/share/f1_12th_simulator_g01/config/empty.yaml\n'}
+[1.592024] (car_gazebo_plugin) StdoutLine: {'line': b'-- Found Ogre Ghadamon (1.9.0)\n'}
+[1.592990] (f1_12th_simulator_g01) StdoutLine: {'line': b'-- Symlinking: /home/carloso/ros2_ws_23_2/install/f1_12th_simulator_g01/share/f1_12th_simulator_g01/config/gazebo_params.yaml\n'}
+[1.601335] (f1_12th_simulator_g01) StdoutLine: {'line': b'-- Symlinking: /home/carloso/ros2_ws_23_2/install/f1_12th_simulator_g01/share/f1_12th_simulator_g01/config/joystick.yaml\n'}
+[1.602928] (car_gazebo_plugin) StdoutLine: {'line': b'-- Found OGRE: optimized;/usr/lib/x86_64-linux-gnu/libOgreMain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreMain.so\n'}
+[1.604036] (-) TimerEvent: {}
+[1.609417] (f1_12th_simulator_g01) StdoutLine: {'line': b'-- Symlinking: /home/carloso/ros2_ws_23_2/install/f1_12th_simulator_g01/share/f1_12th_simulator_g01/config/mapper_params_online_async.yaml\n'}
+[1.611848] (car_gazebo_plugin) StdoutLine: {'line': b'-- Looking for OGRE_Paging...\n'}
+[1.617365] (car_gazebo_plugin) StdoutLine: {'line': b'-- Found OGRE_Paging: optimized;/usr/lib/x86_64-linux-gnu/libOgrePaging.so;debug;/usr/lib/x86_64-linux-gnu/libOgrePaging.so\n'}
+[1.617627] (car_gazebo_plugin) StdoutLine: {'line': b'-- Looking for OGRE_Terrain...\n'}
+[1.617740] (f1_12th_simulator_g01) StdoutLine: {'line': b'-- Symlinking: /home/carloso/ros2_ws_23_2/install/f1_12th_simulator_g01/share/f1_12th_simulator_g01/config/my_controllers.yaml\n'}
+[1.622153] (car_gazebo_plugin) StdoutLine: {'line': b'-- Found OGRE_Terrain: optimized;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so\n'}
+[1.622379] (car_gazebo_plugin) StdoutLine: {'line': b'-- Looking for OGRE_Property...\n'}
+[1.626187] (f1_12th_simulator_g01) StdoutLine: {'line': b'-- Symlinking: /home/carloso/ros2_ws_23_2/install/f1_12th_simulator_g01/share/f1_12th_simulator_g01/description/gazebo_control.xacro\n'}
+[1.627900] (car_gazebo_plugin) StdoutLine: {'line': b'-- Found OGRE_Property: optimized;/usr/lib/x86_64-linux-gnu/libOgreProperty.so;debug;/usr/lib/x86_64-linux-gnu/libOgreProperty.so\n'}
+[1.628078] (car_gazebo_plugin) StdoutLine: {'line': b'-- Looking for OGRE_RTShaderSystem...\n'}
+[1.633912] (car_gazebo_plugin) StdoutLine: {'line': b'-- Found OGRE_RTShaderSystem: optimized;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so;debug;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so\n'}
+[1.634185] (car_gazebo_plugin) StdoutLine: {'line': b'-- Looking for OGRE_Volume...\n'}
+[1.636186] (f1_12th_simulator_g01) StdoutLine: {'line': b'-- Symlinking: /home/carloso/ros2_ws_23_2/install/f1_12th_simulator_g01/share/f1_12th_simulator_g01/description/inertial_macros.xacro\n'}
+[1.640743] (car_gazebo_plugin) StdoutLine: {'line': b'-- Found OGRE_Volume: optimized;/usr/lib/x86_64-linux-gnu/libOgreVolume.so;debug;/usr/lib/x86_64-linux-gnu/libOgreVolume.so\n'}
+[1.641008] (car_gazebo_plugin) StdoutLine: {'line': b'-- Looking for OGRE_Overlay...\n'}
+[1.644568] (f1_12th_simulator_g01) StdoutLine: {'line': b'-- Symlinking: /home/carloso/ros2_ws_23_2/install/f1_12th_simulator_g01/share/f1_12th_simulator_g01/description/lidar.xacro\n'}
+[1.646277] (car_gazebo_plugin) StdoutLine: {'line': b'-- Found OGRE_Overlay: optimized;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so;debug;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so\n'}
+[1.652922] (f1_12th_simulator_g01) StdoutLine: {'line': b'-- Symlinking: /home/carloso/ros2_ws_23_2/install/f1_12th_simulator_g01/share/f1_12th_simulator_g01/description/properties.xacro\n'}
+[1.655962] (sim_car) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[1.661082] (f1_12th_simulator_g01) StdoutLine: {'line': b'-- Symlinking: /home/carloso/ros2_ws_23_2/install/f1_12th_simulator_g01/share/f1_12th_simulator_g01/description/robot.urdf.xacro\n'}
+[1.666279] (sim_car) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.3 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[1.669179] (f1_12th_simulator_g01) StdoutLine: {'line': b'-- Symlinking: /home/carloso/ros2_ws_23_2/install/f1_12th_simulator_g01/share/f1_12th_simulator_g01/description/robot_core.xacro\n'}
+[1.677087] (f1_12th_simulator_g01) StdoutLine: {'line': b'-- Symlinking: /home/carloso/ros2_ws_23_2/install/f1_12th_simulator_g01/share/f1_12th_simulator_g01/description/ros2_control.xacro\n'}
+[1.684972] (f1_12th_simulator_g01) StdoutLine: {'line': b'-- Symlinking: /home/carloso/ros2_ws_23_2/install/f1_12th_simulator_g01/share/f1_12th_simulator_g01/description/rviz_model.rviz\n'}
+[1.693318] (f1_12th_simulator_g01) StdoutLine: {'line': b'-- Symlinking: /home/carloso/ros2_ws_23_2/install/f1_12th_simulator_g01/share/f1_12th_simulator_g01/launch/joystick.launch.py\n'}
+[1.701549] (f1_12th_simulator_g01) StdoutLine: {'line': b'-- Symlinking: /home/carloso/ros2_ws_23_2/install/f1_12th_simulator_g01/share/f1_12th_simulator_g01/launch/launch_sim.launch.py\n'}
+[1.704140] (-) TimerEvent: {}
+[1.709515] (f1_12th_simulator_g01) StdoutLine: {'line': b'-- Symlinking: /home/carloso/ros2_ws_23_2/install/f1_12th_simulator_g01/share/f1_12th_simulator_g01/launch/rsp.launch.py\n'}
+[1.718423] (f1_12th_simulator_g01) StdoutLine: {'line': b'-- Symlinking: /home/carloso/ros2_ws_23_2/install/f1_12th_simulator_g01/share/f1_12th_simulator_g01/worlds/Mundo1/model.config\n'}
+[1.726450] (f1_12th_simulator_g01) StdoutLine: {'line': b'-- Symlinking: /home/carloso/ros2_ws_23_2/install/f1_12th_simulator_g01/share/f1_12th_simulator_g01/worlds/Mundo1/model.sdf\n'}
+[1.736671] (f1_12th_simulator_g01) StdoutLine: {'line': b'-- Symlinking: /home/carloso/ros2_ws_23_2/install/f1_12th_simulator_g01/share/f1_12th_simulator_g01/worlds/mundo1.world\n'}
+[1.745439] (f1_12th_simulator_g01) StdoutLine: {'line': b'-- Symlinking: /home/carloso/ros2_ws_23_2/install/f1_12th_simulator_g01/share/ament_index/resource_index/package_run_dependencies/f1_12th_simulator_g01\n'}
+[1.754128] (f1_12th_simulator_g01) StdoutLine: {'line': b'-- Symlinking: /home/carloso/ros2_ws_23_2/install/f1_12th_simulator_g01/share/ament_index/resource_index/parent_prefix_path/f1_12th_simulator_g01\n'}
+[1.762827] (f1_12th_simulator_g01) StdoutLine: {'line': b'-- Symlinking: /home/carloso/ros2_ws_23_2/install/f1_12th_simulator_g01/share/f1_12th_simulator_g01/environment/ament_prefix_path.sh\n'}
+[1.771479] (f1_12th_simulator_g01) StdoutLine: {'line': b'-- Symlinking: /home/carloso/ros2_ws_23_2/install/f1_12th_simulator_g01/share/f1_12th_simulator_g01/environment/ament_prefix_path.dsv\n'}
+[1.771984] (car_gazebo_plugin) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.12.0\n'}
+[1.775003] (car_gazebo_plugin) StdoutLine: {'line': b'-- Looking for ignition-transport8 -- found version 8.2.1\n'}
+[1.775584] (car_gazebo_plugin) StdoutLine: {'line': b'-- Searching for dependencies of ignition-transport8\n'}
+[1.780249] (f1_12th_simulator_g01) StdoutLine: {'line': b'-- Symlinking: /home/carloso/ros2_ws_23_2/install/f1_12th_simulator_g01/share/f1_12th_simulator_g01/environment/path.sh\n'}
+[1.788746] (f1_12th_simulator_g01) StdoutLine: {'line': b'-- Symlinking: /home/carloso/ros2_ws_23_2/install/f1_12th_simulator_g01/share/f1_12th_simulator_g01/environment/path.dsv\n'}
+[1.793766] (car_gazebo_plugin) StdoutLine: {'line': b'-- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found suitable version "3.12.4", minimum required is "3") \n'}
+[1.797140] (f1_12th_simulator_g01) StdoutLine: {'line': b'-- Symlinking: /home/carloso/ros2_ws_23_2/install/f1_12th_simulator_g01/share/f1_12th_simulator_g01/local_setup.bash\n'}
+[1.804280] (-) TimerEvent: {}
+[1.805249] (f1_12th_simulator_g01) StdoutLine: {'line': b'-- Symlinking: /home/carloso/ros2_ws_23_2/install/f1_12th_simulator_g01/share/f1_12th_simulator_g01/local_setup.sh\n'}
+[1.806051] (car_gazebo_plugin) StdoutLine: {'line': b'-- Config-file not installed for ZeroMQ -- checking for pkg-config\n'}
+[1.811069] (car_gazebo_plugin) StdoutLine: {'line': b"-- Checking for module 'libzmq >= 4'\n"}
+[1.813552] (f1_12th_simulator_g01) StdoutLine: {'line': b'-- Symlinking: /home/carloso/ros2_ws_23_2/install/f1_12th_simulator_g01/share/f1_12th_simulator_g01/local_setup.zsh\n'}
+[1.816363] (sim_car) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[1.821346] (f1_12th_simulator_g01) StdoutLine: {'line': b'-- Symlinking: /home/carloso/ros2_ws_23_2/install/f1_12th_simulator_g01/share/f1_12th_simulator_g01/local_setup.dsv\n'}
+[1.829576] (f1_12th_simulator_g01) StdoutLine: {'line': b'-- Symlinking: /home/carloso/ros2_ws_23_2/install/f1_12th_simulator_g01/share/f1_12th_simulator_g01/package.dsv\n'}
+[1.834461] (car_gazebo_plugin) StdoutLine: {'line': b'--   Found libzmq , version 4.3.4\n'}
+[1.839621] (f1_12th_simulator_g01) StdoutLine: {'line': b'-- Symlinking: /home/carloso/ros2_ws_23_2/install/f1_12th_simulator_g01/share/ament_index/resource_index/packages/f1_12th_simulator_g01\n'}
+[1.850827] (f1_12th_simulator_g01) StdoutLine: {'line': b'-- Symlinking: /home/carloso/ros2_ws_23_2/install/f1_12th_simulator_g01/share/f1_12th_simulator_g01/cmake/f1_12th_simulator_g01Config.cmake\n'}
+[1.855310] (sim_car) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[1.858983] (f1_12th_simulator_g01) StdoutLine: {'line': b'-- Symlinking: /home/carloso/ros2_ws_23_2/install/f1_12th_simulator_g01/share/f1_12th_simulator_g01/cmake/f1_12th_simulator_g01Config-version.cmake\n'}
+[1.866851] (f1_12th_simulator_g01) StdoutLine: {'line': b'-- Symlinking: /home/carloso/ros2_ws_23_2/install/f1_12th_simulator_g01/share/f1_12th_simulator_g01/package.xml\n'}
+[1.869720] (car_gazebo_plugin) StdoutLine: {'line': b'-- Found ZeroMQ: TRUE (Required is at least version "4") \n'}
+[1.875751] (car_gazebo_plugin) StdoutLine: {'line': b"-- Checking for module 'uuid'\n"}
+[1.876726] (f1_12th_simulator_g01) CommandEnded: {'returncode': 0}
+[1.888018] (car_gazebo_plugin) StdoutLine: {'line': b'--   Found uuid, version 2.37.2\n'}
+[1.904384] (-) TimerEvent: {}
+[1.911061] (sim_car) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[1.918668] (car_gazebo_plugin) StdoutLine: {'line': b'-- Found UUID: TRUE  \n'}
+[1.923084] (car_gazebo_plugin) StdoutLine: {'line': b'-- Looking for ignition-msgs5 -- found version 5.8.1\n'}
+[1.923264] (car_gazebo_plugin) StdoutLine: {'line': b'-- Searching for dependencies of ignition-msgs5\n'}
+[1.927775] (sim_car) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[1.929794] (f1_12th_simulator_g01) JobEnded: {'identifier': 'f1_12th_simulator_g01', 'rc': 0}
+[1.943594] (car_gazebo_plugin) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.12.0\n'}
+[1.948927] (car_gazebo_plugin) StdoutLine: {'line': b"-- Checking for module 'tinyxml2'\n"}
+[1.961350] (car_gazebo_plugin) StdoutLine: {'line': b'--   Found tinyxml2, version 9.0.0\n'}
+[1.992194] (car_gazebo_plugin) StdoutLine: {'line': b'-- Looking for ignition-msgs5 -- found version 5.8.1\n'}
+[1.992610] (sim_car) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[1.992826] (sim_car) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[1.996743] (car_gazebo_plugin) StdoutLine: {'line': b'-- Looking for ignition-common3 -- found version 3.14.0\n'}
+[1.997307] (car_gazebo_plugin) StdoutLine: {'line': b'-- Searching for dependencies of ignition-common3\n'}
+[1.997870] (car_gazebo_plugin) StdoutLine: {'line': b'-- Looking for dlfcn.h - found\n'}
+[1.998580] (car_gazebo_plugin) StdoutLine: {'line': b'-- Looking for libdl - found\n'}
+[1.999902] (car_gazebo_plugin) StdoutLine: {'line': b'-- Found DL: TRUE  \n'}
+[2.004492] (-) TimerEvent: {}
+[2.011232] (car_gazebo_plugin) StdoutLine: {'line': b'-- Found tinyobjloader: /usr/lib/x86_64-linux-gnu/cmake/tinyobjloader/tinyobjloader-config.cmake (found version "2.0.0") \n'}
+[2.012097] (car_gazebo_plugin) StdoutLine: {'line': b'-- Searching for <ignition-common3> component [graphics]\n'}
+[2.014657] (car_gazebo_plugin) StdoutLine: {'line': b'-- Looking for ignition-common3-graphics -- found version 3.14.0\n'}
+[2.015152] (car_gazebo_plugin) StdoutLine: {'line': b'-- Searching for dependencies of ignition-common3-graphics\n'}
+[2.015463] (car_gazebo_plugin) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.12.0\n'}
+[2.020236] (car_gazebo_plugin) StdoutLine: {'line': b'-- Looking for ignition-fuel_tools4 -- found version 4.4.0\n'}
+[2.020650] (car_gazebo_plugin) StdoutLine: {'line': b'-- Searching for dependencies of ignition-fuel_tools4\n'}
+[2.063330] (sim_car) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[2.064870] (sim_car) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[2.099096] (car_gazebo_plugin) StdoutLine: {'line': b'-- Found CURL: /usr/lib/x86_64-linux-gnu/libcurl.so (found version "7.81.0")  \n'}
+[2.104592] (-) TimerEvent: {}
+[2.110380] (car_gazebo_plugin) StdoutLine: {'line': b"-- Checking for module 'jsoncpp'\n"}
+[2.125176] (car_gazebo_plugin) StdoutLine: {'line': b'--   Found jsoncpp, version 1.9.5\n'}
+[2.155937] (car_gazebo_plugin) StdoutLine: {'line': b'-- Found JSONCPP: TRUE  \n'}
+[2.161924] (car_gazebo_plugin) StdoutLine: {'line': b"-- Checking for module 'libzip'\n"}
+[2.175014] (car_gazebo_plugin) StdoutLine: {'line': b'--   Found libzip, version 1.7.3\n'}
+[2.203053] (car_gazebo_plugin) StdoutLine: {'line': b'-- Found ZIP: TRUE  \n'}
+[2.203465] (car_gazebo_plugin) StdoutLine: {'line': b'-- Looking for ignition-common3 -- found version 3.14.0\n'}
+[2.204023] (car_gazebo_plugin) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.12.0\n'}
+[2.204457] (car_gazebo_plugin) StdoutLine: {'line': b'-- Looking for ignition-msgs5 -- found version 5.8.1\n'}
+[2.204653] (-) TimerEvent: {}
+[2.213619] (car_gazebo_plugin) StdoutLine: {'line': b'-- Found gazebo_ros: 3.7.0 (/opt/ros/humble/share/gazebo_ros/cmake)\n'}
+[2.270741] (sim_car) StdoutLine: {'line': b'-- Found rclpy: 3.3.9 (/opt/ros/humble/share/rclpy/cmake)\n'}
+[2.272192] (sim_car) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.7 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[2.304747] (-) TimerEvent: {}
+[2.351147] (sim_car) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[2.351977] (sim_car) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[2.352657] (sim_car) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[2.354803] (sim_car) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[2.356278] (sim_car) StdoutLine: {'line': b'-- Configuring done\n'}
+[2.360769] (sim_car) StdoutLine: {'line': b'-- Generating done\n'}
+[2.362126] (sim_car) StdoutLine: {'line': b'-- Build files have been written to: /home/carloso/ros2_ws_23_2/build/sim_car\n'}
+[2.369989] (car_gazebo_plugin) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter \n'}
+[2.370588] (sim_car) CommandEnded: {'returncode': 0}
+[2.371290] (sim_car) JobProgress: {'identifier': 'sim_car', 'progress': 'build'}
+[2.372014] (sim_car) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/carloso/ros2_ws_23_2/build/sim_car', '--', '-j8', '-l8'], 'cwd': '/home/carloso/ros2_ws_23_2/build/sim_car', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'es_CO:es'), ('USER', 'carloso'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/carloso'), ('OLDPWD', '/home/carloso'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1067'), ('SYSTEMD_EXEC_PID', '1227'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '13331'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/carloso/ros2_ws_23_2/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'carloso'), ('JOURNAL_STREAM', '8:28196'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'carloso'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/carloso-TUF-GAMING-FX504GE-FX80GE:@/tmp/.ICE-unix/1203,unix/carloso-TUF-GAMING-FX504GE-FX80GE:/tmp/.ICE-unix/1203'), ('INVOCATION_ID', '01a5a4313dc34f5ab0bbcabb526dd6e1'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'es_CO.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.97BGA2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/carloso/ros2_ws_23_2/install/turtle_move_pkg_gYY:/home/carloso/ros2_ws_23_2/install/sim_car:/home/carloso/ros2_ws_23_2/install/launch_pkg_gYY:/home/carloso/ros2_ws_23_2/install/joy_tester:/home/carloso/ros2_ws_23_2/install/f1_12th_simulator_g01:/home/carloso/ros2_ws_23_2/install/car_gazebo_plugin:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:a6d280a3-0efb-4687-aefd-fe7ee8b2b0fe'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/carloso/ros2_ws_23_2/build/sim_car'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/carloso/ros2_ws_23_2/build/turtle_move_pkg_gYY:/home/carloso/ros2_ws_23_2/install/turtle_move_pkg_gYY/lib/python3.10/site-packages:/home/carloso/ros2_ws_23_2/build/launch_pkg_gYY:/home/carloso/ros2_ws_23_2/install/launch_pkg_gYY/lib/python3.10/site-packages:/home/carloso/ros2_ws_23_2/build/joy_tester:/home/carloso/ros2_ws_23_2/install/joy_tester/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/carloso/ros2_ws_23_2/install/sim_car:/home/carloso/ros2_ws_23_2/install/f1_12th_simulator_g01:/home/carloso/ros2_ws_23_2/install/car_gazebo_plugin:/home/carloso/ros2_ws_23_2/install/turtle_move_pkg_gYY:/home/carloso/ros2_ws_23_2/install/launch_pkg_gYY:/home/carloso/ros2_ws_23_2/install/joy_tester:/opt/ros/humble')]), 'shell': False}
+[2.404917] (-) TimerEvent: {}
+[2.408481] (sim_car) CommandEnded: {'returncode': 0}
+[2.426883] (car_gazebo_plugin) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[2.428627] (sim_car) JobProgress: {'identifier': 'sim_car', 'progress': 'install'}
+[2.429012] (sim_car) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/carloso/ros2_ws_23_2/build/sim_car'], 'cwd': '/home/carloso/ros2_ws_23_2/build/sim_car', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'es_CO:es'), ('USER', 'carloso'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/carloso'), ('OLDPWD', '/home/carloso'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1067'), ('SYSTEMD_EXEC_PID', '1227'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '13331'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/carloso/ros2_ws_23_2/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'carloso'), ('JOURNAL_STREAM', '8:28196'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'carloso'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/carloso-TUF-GAMING-FX504GE-FX80GE:@/tmp/.ICE-unix/1203,unix/carloso-TUF-GAMING-FX504GE-FX80GE:/tmp/.ICE-unix/1203'), ('INVOCATION_ID', '01a5a4313dc34f5ab0bbcabb526dd6e1'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'es_CO.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.97BGA2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/carloso/ros2_ws_23_2/install/turtle_move_pkg_gYY:/home/carloso/ros2_ws_23_2/install/sim_car:/home/carloso/ros2_ws_23_2/install/launch_pkg_gYY:/home/carloso/ros2_ws_23_2/install/joy_tester:/home/carloso/ros2_ws_23_2/install/f1_12th_simulator_g01:/home/carloso/ros2_ws_23_2/install/car_gazebo_plugin:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:a6d280a3-0efb-4687-aefd-fe7ee8b2b0fe'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/carloso/ros2_ws_23_2/build/sim_car'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/carloso/ros2_ws_23_2/build/turtle_move_pkg_gYY:/home/carloso/ros2_ws_23_2/install/turtle_move_pkg_gYY/lib/python3.10/site-packages:/home/carloso/ros2_ws_23_2/build/launch_pkg_gYY:/home/carloso/ros2_ws_23_2/install/launch_pkg_gYY/lib/python3.10/site-packages:/home/carloso/ros2_ws_23_2/build/joy_tester:/home/carloso/ros2_ws_23_2/install/joy_tester/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/carloso/ros2_ws_23_2/install/sim_car:/home/carloso/ros2_ws_23_2/install/f1_12th_simulator_g01:/home/carloso/ros2_ws_23_2/install/car_gazebo_plugin:/home/carloso/ros2_ws_23_2/install/turtle_move_pkg_gYY:/home/carloso/ros2_ws_23_2/install/launch_pkg_gYY:/home/carloso/ros2_ws_23_2/install/joy_tester:/opt/ros/humble')]), 'shell': False}
+[2.437816] (sim_car) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[2.438153] (sim_car) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[2.438385] (sim_car) StdoutLine: {'line': b'-- Symlinking: /home/carloso/ros2_ws_23_2/install/sim_car/lib/sim_car//convert_xacro.py\n'}
+[2.446641] (sim_car) StdoutLine: {'line': b'-- Symlinking: /home/carloso/ros2_ws_23_2/install/sim_car/lib/sim_car//spawn_bot.py\n'}
+[2.454533] (sim_car) StdoutLine: {'line': b'-- Symlinking: /home/carloso/ros2_ws_23_2/install/sim_car/lib/sim_car//sentry.py\n'}
+[2.462666] (sim_car) StdoutLine: {'line': b'-- Symlinking: /home/carloso/ros2_ws_23_2/install/sim_car/share/sim_car//launch/all.launch.py\n'}
+[2.470421] (sim_car) StdoutLine: {'line': b'-- Symlinking: /home/carloso/ros2_ws_23_2/install/sim_car/share/sim_car//launch/blue2.py\n'}
+[2.478116] (sim_car) StdoutLine: {'line': b'-- Symlinking: /home/carloso/ros2_ws_23_2/install/sim_car/share/sim_car//launch/blue_launch.py\n'}
+[2.485957] (sim_car) StdoutLine: {'line': b'-- Symlinking: /home/carloso/ros2_ws_23_2/install/sim_car/share/sim_car//launch/bringup.launch.py\n'}
+[2.493689] (sim_car) StdoutLine: {'line': b'-- Symlinking: /home/carloso/ros2_ws_23_2/install/sim_car/share/sim_car//launch/bringup.launch2.py\n'}
+[2.500674] (car_gazebo_plugin) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[2.501625] (sim_car) StdoutLine: {'line': b'-- Symlinking: /home/carloso/ros2_ws_23_2/install/sim_car/share/sim_car//launch/spawn_car.launch.py\n'}
+[2.505011] (-) TimerEvent: {}
+[2.506799] (car_gazebo_plugin) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[2.510049] (sim_car) StdoutLine: {'line': b'-- Symlinking: /home/carloso/ros2_ws_23_2/install/sim_car/share/sim_car//launch/spawn_red_crash.launch.py\n'}
+[2.516599] (car_gazebo_plugin) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[2.518165] (sim_car) StdoutLine: {'line': b'-- Symlinking: /home/carloso/ros2_ws_23_2/install/sim_car/share/sim_car//launch/spawn_world.launch.py\n'}
+[2.526464] (sim_car) StdoutLine: {'line': b'-- Symlinking: /home/carloso/ros2_ws_23_2/install/sim_car/share/sim_car//config/blue_params.yaml\n'}
+[2.532707] (car_gazebo_plugin) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[2.535626] (sim_car) StdoutLine: {'line': b'-- Symlinking: /home/carloso/ros2_ws_23_2/install/sim_car/share/sim_car//config/nav2_params.yaml\n'}
+[2.544363] (sim_car) StdoutLine: {'line': b'-- Symlinking: /home/carloso/ros2_ws_23_2/install/sim_car/share/sim_car//config/red-crash.rviz\n'}
+[2.552613] (sim_car) StdoutLine: {'line': b'-- Symlinking: /home/carloso/ros2_ws_23_2/install/sim_car/share/sim_car//config/teleop_twist_joy.yaml\n'}
+[2.555070] (car_gazebo_plugin) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[2.560841] (sim_car) StdoutLine: {'line': b'-- Symlinking: /home/carloso/ros2_ws_23_2/install/sim_car/share/sim_car//robot/car.urdf.xacro\n'}
+[2.568783] (sim_car) StdoutLine: {'line': b'-- Symlinking: /home/carloso/ros2_ws_23_2/install/sim_car/share/sim_car//robot/red_crash.urdf.xacro\n'}
+[2.576664] (sim_car) StdoutLine: {'line': b'-- Symlinking: /home/carloso/ros2_ws_23_2/install/sim_car/share/sim_car//worlds/empty.world\n'}
+[2.584351] (sim_car) StdoutLine: {'line': b'-- Symlinking: /home/carloso/ros2_ws_23_2/install/sim_car/share/sim_car//worlds/simple.world\n'}
+[2.593181] (sim_car) StdoutLine: {'line': b'-- Symlinking: /home/carloso/ros2_ws_23_2/install/sim_car/share/sim_car//worlds/simple_world_maps/map_1669268298.pgm\n'}
+[2.602195] (sim_car) StdoutLine: {'line': b'-- Symlinking: /home/carloso/ros2_ws_23_2/install/sim_car/share/sim_car//worlds/simple_world_maps/map_1669268298.yaml\n'}
+[2.605096] (-) TimerEvent: {}
+[2.611702] (sim_car) StdoutLine: {'line': b'-- Symlinking: /home/carloso/ros2_ws_23_2/install/sim_car/share/sim_car//worlds/simple_world_maps/map_1669312051.pgm\n'}
+[2.620315] (sim_car) StdoutLine: {'line': b'-- Symlinking: /home/carloso/ros2_ws_23_2/install/sim_car/share/sim_car//worlds/simple_world_maps/map_1669312051.yaml\n'}
+[2.628975] (sim_car) StdoutLine: {'line': b'-- Symlinking: /home/carloso/ros2_ws_23_2/install/sim_car/share/sim_car//scripts/convert_xacro.py\n'}
+[2.636352] (car_gazebo_plugin) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[2.638426] (sim_car) StdoutLine: {'line': b'-- Symlinking: /home/carloso/ros2_ws_23_2/install/sim_car/share/sim_car//scripts/play.html\n'}
+[2.639805] (car_gazebo_plugin) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.3 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[2.648028] (sim_car) StdoutLine: {'line': b'-- Symlinking: /home/carloso/ros2_ws_23_2/install/sim_car/share/sim_car//scripts/sentry.py\n'}
+[2.656374] (sim_car) StdoutLine: {'line': b'-- Symlinking: /home/carloso/ros2_ws_23_2/install/sim_car/share/sim_car//scripts/spawn_bot.py\n'}
+[2.664976] (sim_car) StdoutLine: {'line': b'-- Symlinking: /home/carloso/ros2_ws_23_2/install/sim_car/share/sim_car//params/intentionally_empty\n'}
+[2.673400] (sim_car) StdoutLine: {'line': b'-- Symlinking: /home/carloso/ros2_ws_23_2/install/sim_car/share/sim_car//behavior_trees/navigate_w_replanning_time2.xml\n'}
+[2.681556] (sim_car) StdoutLine: {'line': b'-- Symlinking: /home/carloso/ros2_ws_23_2/install/sim_car/share/ament_index/resource_index/package_run_dependencies/sim_car\n'}
+[2.689786] (sim_car) StdoutLine: {'line': b'-- Symlinking: /home/carloso/ros2_ws_23_2/install/sim_car/share/ament_index/resource_index/parent_prefix_path/sim_car\n'}
+[2.697972] (sim_car) StdoutLine: {'line': b'-- Symlinking: /home/carloso/ros2_ws_23_2/install/sim_car/share/sim_car/environment/ament_prefix_path.sh\n'}
+[2.705308] (-) TimerEvent: {}
+[2.706746] (sim_car) StdoutLine: {'line': b'-- Symlinking: /home/carloso/ros2_ws_23_2/install/sim_car/share/sim_car/environment/ament_prefix_path.dsv\n'}
+[2.714897] (sim_car) StdoutLine: {'line': b'-- Symlinking: /home/carloso/ros2_ws_23_2/install/sim_car/share/sim_car/environment/path.sh\n'}
+[2.723443] (sim_car) StdoutLine: {'line': b'-- Symlinking: /home/carloso/ros2_ws_23_2/install/sim_car/share/sim_car/environment/path.dsv\n'}
+[2.731304] (sim_car) StdoutLine: {'line': b'-- Symlinking: /home/carloso/ros2_ws_23_2/install/sim_car/share/sim_car/local_setup.bash\n'}
+[2.740958] (sim_car) StdoutLine: {'line': b'-- Symlinking: /home/carloso/ros2_ws_23_2/install/sim_car/share/sim_car/local_setup.sh\n'}
+[2.746340] (car_gazebo_plugin) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[2.748950] (sim_car) StdoutLine: {'line': b'-- Symlinking: /home/carloso/ros2_ws_23_2/install/sim_car/share/sim_car/local_setup.zsh\n'}
+[2.757046] (sim_car) StdoutLine: {'line': b'-- Symlinking: /home/carloso/ros2_ws_23_2/install/sim_car/share/sim_car/local_setup.dsv\n'}
+[2.764965] (sim_car) StdoutLine: {'line': b'-- Symlinking: /home/carloso/ros2_ws_23_2/install/sim_car/share/sim_car/package.dsv\n'}
+[2.770801] (car_gazebo_plugin) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[2.773084] (sim_car) StdoutLine: {'line': b'-- Symlinking: /home/carloso/ros2_ws_23_2/install/sim_car/share/ament_index/resource_index/packages/sim_car\n'}
+[2.781003] (sim_car) StdoutLine: {'line': b'-- Symlinking: /home/carloso/ros2_ws_23_2/install/sim_car/share/sim_car/cmake/sim_carConfig.cmake\n'}
+[2.788726] (sim_car) StdoutLine: {'line': b'-- Symlinking: /home/carloso/ros2_ws_23_2/install/sim_car/share/sim_car/cmake/sim_carConfig-version.cmake\n'}
+[2.796853] (sim_car) StdoutLine: {'line': b'-- Symlinking: /home/carloso/ros2_ws_23_2/install/sim_car/share/sim_car/package.xml\n'}
+[2.805432] (-) TimerEvent: {}
+[2.807789] (sim_car) CommandEnded: {'returncode': 0}
+[2.821454] (car_gazebo_plugin) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[2.831931] (car_gazebo_plugin) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[2.846529] (sim_car) JobEnded: {'identifier': 'sim_car', 'rc': 0}
+[2.905555] (-) TimerEvent: {}
+[2.999884] (car_gazebo_plugin) StdoutLine: {'line': b'-- Gazebo version: 11.10\n'}
+[3.000168] (car_gazebo_plugin) StdoutLine: {'line': b"-- Checking for module 'tbb'\n"}
+[3.005651] (-) TimerEvent: {}
+[3.012473] (car_gazebo_plugin) StdoutLine: {'line': b'--   Found tbb, version 2021.5.0\n'}
+[3.053128] (car_gazebo_plugin) StdoutLine: {'line': b'-- Found gazebo_ros_pkgs: 3.7.0 (/opt/ros/humble/share/gazebo_ros_pkgs/cmake)\n'}
+[3.056458] (car_gazebo_plugin) StdoutLine: {'line': b'-- Found sensor_msgs: 4.2.3 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[3.105755] (-) TimerEvent: {}
+[3.201696] (car_gazebo_plugin) StdoutLine: {'line': b'-- Found nav_msgs: 4.2.3 (/opt/ros/humble/share/nav_msgs/cmake)\n'}
+[3.205861] (-) TimerEvent: {}
+[3.295634] (car_gazebo_plugin) StdoutLine: {'line': b'-- Found ackermann_msgs: 2.0.2 (/opt/ros/humble/share/ackermann_msgs/cmake)\n'}
+[3.305969] (-) TimerEvent: {}
+[3.355020] (car_gazebo_plugin) StdoutLine: {'line': b'-- Found tf2: 0.25.3 (/opt/ros/humble/share/tf2/cmake)\n'}
+[3.375325] (car_gazebo_plugin) StdoutLine: {'line': b'-- Found tf2_ros: 0.25.3 (/opt/ros/humble/share/tf2_ros/cmake)\n'}
+[3.406076] (-) TimerEvent: {}
+[3.506309] (-) TimerEvent: {}
+[3.606600] (-) TimerEvent: {}
+[3.706860] (-) TimerEvent: {}
+[3.807119] (-) TimerEvent: {}
+[3.851420] (car_gazebo_plugin) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.7 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[3.907245] (-) TimerEvent: {}
+[3.910751] (car_gazebo_plugin) StdoutLine: {'line': b'-- Configuring done\n'}
+[3.985773] (car_gazebo_plugin) StdoutLine: {'line': b'-- Generating done\n'}
+[3.990971] (car_gazebo_plugin) StdoutLine: {'line': b'-- Build files have been written to: /home/carloso/ros2_ws_23_2/build/car_gazebo_plugin\n'}
+[4.005779] (car_gazebo_plugin) CommandEnded: {'returncode': 0}
+[4.006479] (car_gazebo_plugin) JobProgress: {'identifier': 'car_gazebo_plugin', 'progress': 'build'}
+[4.007413] (car_gazebo_plugin) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/carloso/ros2_ws_23_2/build/car_gazebo_plugin', '--', '-j8', '-l8'], 'cwd': '/home/carloso/ros2_ws_23_2/build/car_gazebo_plugin', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'es_CO:es'), ('USER', 'carloso'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/carloso'), ('OLDPWD', '/home/carloso'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1067'), ('SYSTEMD_EXEC_PID', '1227'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '13331'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/carloso/ros2_ws_23_2/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'carloso'), ('JOURNAL_STREAM', '8:28196'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'carloso'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/carloso-TUF-GAMING-FX504GE-FX80GE:@/tmp/.ICE-unix/1203,unix/carloso-TUF-GAMING-FX504GE-FX80GE:/tmp/.ICE-unix/1203'), ('INVOCATION_ID', '01a5a4313dc34f5ab0bbcabb526dd6e1'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'es_CO.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.97BGA2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/carloso/ros2_ws_23_2/install/turtle_move_pkg_gYY:/home/carloso/ros2_ws_23_2/install/sim_car:/home/carloso/ros2_ws_23_2/install/launch_pkg_gYY:/home/carloso/ros2_ws_23_2/install/joy_tester:/home/carloso/ros2_ws_23_2/install/f1_12th_simulator_g01:/home/carloso/ros2_ws_23_2/install/car_gazebo_plugin:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:a6d280a3-0efb-4687-aefd-fe7ee8b2b0fe'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/carloso/ros2_ws_23_2/build/car_gazebo_plugin'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/carloso/ros2_ws_23_2/build/turtle_move_pkg_gYY:/home/carloso/ros2_ws_23_2/install/turtle_move_pkg_gYY/lib/python3.10/site-packages:/home/carloso/ros2_ws_23_2/build/launch_pkg_gYY:/home/carloso/ros2_ws_23_2/install/launch_pkg_gYY/lib/python3.10/site-packages:/home/carloso/ros2_ws_23_2/build/joy_tester:/home/carloso/ros2_ws_23_2/install/joy_tester/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/carloso/ros2_ws_23_2/install/sim_car:/home/carloso/ros2_ws_23_2/install/f1_12th_simulator_g01:/home/carloso/ros2_ws_23_2/install/car_gazebo_plugin:/home/carloso/ros2_ws_23_2/install/turtle_move_pkg_gYY:/home/carloso/ros2_ws_23_2/install/launch_pkg_gYY:/home/carloso/ros2_ws_23_2/install/joy_tester:/opt/ros/humble')]), 'shell': False}
+[4.007885] (-) TimerEvent: {}
+[4.056341] (car_gazebo_plugin) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/car_gazebo_plugin.dir/src/car_gazebo_plugin.cpp.o\x1b[0m\n'}
+[4.108011] (-) TimerEvent: {}
+[4.208388] (-) TimerEvent: {}
+[4.308820] (-) TimerEvent: {}
+[4.409455] (-) TimerEvent: {}
+[4.509750] (-) TimerEvent: {}
+[4.610077] (-) TimerEvent: {}
+[4.710481] (-) TimerEvent: {}
+[4.811018] (-) TimerEvent: {}
+[4.911351] (-) TimerEvent: {}
+[5.011672] (-) TimerEvent: {}
+[5.111945] (-) TimerEvent: {}
+[5.212278] (-) TimerEvent: {}
+[5.313023] (-) TimerEvent: {}
+[5.413368] (-) TimerEvent: {}
+[5.513736] (-) TimerEvent: {}
+[5.614522] (-) TimerEvent: {}
+[5.715021] (-) TimerEvent: {}
+[5.815289] (-) TimerEvent: {}
+[5.915585] (-) TimerEvent: {}
+[6.016004] (-) TimerEvent: {}
+[6.116530] (-) TimerEvent: {}
+[6.217042] (-) TimerEvent: {}
+[6.317426] (-) TimerEvent: {}
+[6.417735] (-) TimerEvent: {}
+[6.517980] (-) TimerEvent: {}
+[6.618355] (-) TimerEvent: {}
+[6.718655] (-) TimerEvent: {}
+[6.818962] (-) TimerEvent: {}
+[6.919293] (-) TimerEvent: {}
+[7.019580] (-) TimerEvent: {}
+[7.119960] (-) TimerEvent: {}
+[7.220429] (-) TimerEvent: {}
+[7.320741] (-) TimerEvent: {}
+[7.421083] (-) TimerEvent: {}
+[7.521472] (-) TimerEvent: {}
+[7.621740] (-) TimerEvent: {}
+[7.722049] (-) TimerEvent: {}
+[7.822349] (-) TimerEvent: {}
+[7.922676] (-) TimerEvent: {}
+[8.023059] (-) TimerEvent: {}
+[8.123585] (-) TimerEvent: {}
+[8.223854] (-) TimerEvent: {}
+[8.324149] (-) TimerEvent: {}
+[8.424429] (-) TimerEvent: {}
+[8.524710] (-) TimerEvent: {}
+[8.625035] (-) TimerEvent: {}
+[8.725391] (-) TimerEvent: {}
+[8.825671] (-) TimerEvent: {}
+[8.925965] (-) TimerEvent: {}
+[9.026259] (-) TimerEvent: {}
+[9.126544] (-) TimerEvent: {}
+[9.226828] (-) TimerEvent: {}
+[9.327124] (-) TimerEvent: {}
+[9.427404] (-) TimerEvent: {}
+[9.527701] (-) TimerEvent: {}
+[9.628016] (-) TimerEvent: {}
+[9.728317] (-) TimerEvent: {}
+[9.828630] (-) TimerEvent: {}
+[9.928910] (-) TimerEvent: {}
+[10.029197] (-) TimerEvent: {}
+[10.129478] (-) TimerEvent: {}
+[10.229764] (-) TimerEvent: {}
+[10.330066] (-) TimerEvent: {}
+[10.430372] (-) TimerEvent: {}
+[10.530649] (-) TimerEvent: {}
+[10.631013] (-) TimerEvent: {}
+[10.731305] (-) TimerEvent: {}
+[10.831593] (-) TimerEvent: {}
+[10.931892] (-) TimerEvent: {}
+[11.032190] (-) TimerEvent: {}
+[11.132486] (-) TimerEvent: {}
+[11.232784] (-) TimerEvent: {}
+[11.333045] (-) TimerEvent: {}
+[11.433334] (-) TimerEvent: {}
+[11.533623] (-) TimerEvent: {}
+[11.633915] (-) TimerEvent: {}
+[11.734211] (-) TimerEvent: {}
+[11.834524] (-) TimerEvent: {}
+[11.934822] (-) TimerEvent: {}
+[12.035116] (-) TimerEvent: {}
+[12.135429] (-) TimerEvent: {}
+[12.235885] (-) TimerEvent: {}
+[12.336162] (-) TimerEvent: {}
+[12.436440] (-) TimerEvent: {}
+[12.536722] (-) TimerEvent: {}
+[12.637042] (-) TimerEvent: {}
+[12.737337] (-) TimerEvent: {}
+[12.837596] (-) TimerEvent: {}
+[12.937973] (-) TimerEvent: {}
+[13.038277] (-) TimerEvent: {}
+[13.138583] (-) TimerEvent: {}
+[13.238895] (-) TimerEvent: {}
+[13.339210] (-) TimerEvent: {}
+[13.439519] (-) TimerEvent: {}
+[13.539828] (-) TimerEvent: {}
+[13.640137] (-) TimerEvent: {}
+[13.740445] (-) TimerEvent: {}
+[13.840746] (-) TimerEvent: {}
+[13.941108] (-) TimerEvent: {}
+[14.041410] (-) TimerEvent: {}
+[14.141724] (-) TimerEvent: {}
+[14.242036] (-) TimerEvent: {}
+[14.342329] (-) TimerEvent: {}
+[14.442626] (-) TimerEvent: {}
+[14.542920] (-) TimerEvent: {}
+[14.643213] (-) TimerEvent: {}
+[14.743509] (-) TimerEvent: {}
+[14.843806] (-) TimerEvent: {}
+[14.944125] (-) TimerEvent: {}
+[15.044458] (-) TimerEvent: {}
+[15.144747] (-) TimerEvent: {}
+[15.245113] (-) TimerEvent: {}
+[15.345407] (-) TimerEvent: {}
+[15.445701] (-) TimerEvent: {}
+[15.545991] (-) TimerEvent: {}
+[15.646301] (-) TimerEvent: {}
+[15.746605] (-) TimerEvent: {}
+[15.846901] (-) TimerEvent: {}
+[15.947201] (-) TimerEvent: {}
+[16.047524] (-) TimerEvent: {}
+[16.147798] (-) TimerEvent: {}
+[16.248101] (-) TimerEvent: {}
+[16.348407] (-) TimerEvent: {}
+[16.448721] (-) TimerEvent: {}
+[16.548988] (-) TimerEvent: {}
+[16.649287] (-) TimerEvent: {}
+[16.749590] (-) TimerEvent: {}
+[16.849891] (-) TimerEvent: {}
+[16.950205] (-) TimerEvent: {}
+[17.050494] (-) TimerEvent: {}
+[17.150805] (-) TimerEvent: {}
+[17.251105] (-) TimerEvent: {}
+[17.351418] (-) TimerEvent: {}
+[17.451712] (-) TimerEvent: {}
+[17.552013] (-) TimerEvent: {}
+[17.652299] (-) TimerEvent: {}
+[17.752600] (-) TimerEvent: {}
+[17.852890] (-) TimerEvent: {}
+[17.953176] (-) TimerEvent: {}
+[18.053478] (-) TimerEvent: {}
+[18.153784] (-) TimerEvent: {}
+[18.254099] (-) TimerEvent: {}
+[18.354390] (-) TimerEvent: {}
+[18.454694] (-) TimerEvent: {}
+[18.555001] (-) TimerEvent: {}
+[18.655304] (-) TimerEvent: {}
+[18.755608] (-) TimerEvent: {}
+[18.855901] (-) TimerEvent: {}
+[18.956203] (-) TimerEvent: {}
+[19.056514] (-) TimerEvent: {}
+[19.156797] (-) TimerEvent: {}
+[19.257155] (-) TimerEvent: {}
+[19.357471] (-) TimerEvent: {}
+[19.457802] (-) TimerEvent: {}
+[19.558113] (-) TimerEvent: {}
+[19.658425] (-) TimerEvent: {}
+[19.758739] (-) TimerEvent: {}
+[19.859073] (-) TimerEvent: {}
+[19.959389] (-) TimerEvent: {}
+[20.059755] (-) TimerEvent: {}
+[20.160068] (-) TimerEvent: {}
+[20.260392] (-) TimerEvent: {}
+[20.360722] (-) TimerEvent: {}
+[20.461077] (-) TimerEvent: {}
+[20.561395] (-) TimerEvent: {}
+[20.661687] (-) TimerEvent: {}
+[20.761979] (-) TimerEvent: {}
+[20.862271] (-) TimerEvent: {}
+[20.962558] (-) TimerEvent: {}
+[21.062854] (-) TimerEvent: {}
+[21.163141] (-) TimerEvent: {}
+[21.263432] (-) TimerEvent: {}
+[21.363724] (-) TimerEvent: {}
+[21.464034] (-) TimerEvent: {}
+[21.564324] (-) TimerEvent: {}
+[21.664624] (-) TimerEvent: {}
+[21.764921] (-) TimerEvent: {}
+[21.865209] (-) TimerEvent: {}
+[21.965498] (-) TimerEvent: {}
+[22.065789] (-) TimerEvent: {}
+[22.166081] (-) TimerEvent: {}
+[22.266375] (-) TimerEvent: {}
+[22.366667] (-) TimerEvent: {}
+[22.466957] (-) TimerEvent: {}
+[22.567250] (-) TimerEvent: {}
+[22.667560] (-) TimerEvent: {}
+[22.767852] (-) TimerEvent: {}
+[22.868106] (-) TimerEvent: {}
+[22.968402] (-) TimerEvent: {}
+[23.068687] (-) TimerEvent: {}
+[23.168988] (-) TimerEvent: {}
+[23.269281] (-) TimerEvent: {}
+[23.369573] (-) TimerEvent: {}
+[23.469863] (-) TimerEvent: {}
+[23.570148] (-) TimerEvent: {}
+[23.670436] (-) TimerEvent: {}
+[23.770696] (-) TimerEvent: {}
+[23.870982] (-) TimerEvent: {}
+[23.971278] (-) TimerEvent: {}
+[24.071553] (-) TimerEvent: {}
+[24.171839] (-) TimerEvent: {}
+[24.272129] (-) TimerEvent: {}
+[24.372424] (-) TimerEvent: {}
+[24.472714] (-) TimerEvent: {}
+[24.573009] (-) TimerEvent: {}
+[24.673293] (-) TimerEvent: {}
+[24.773573] (-) TimerEvent: {}
+[24.873859] (-) TimerEvent: {}
+[24.974154] (-) TimerEvent: {}
+[25.074441] (-) TimerEvent: {}
+[25.174731] (-) TimerEvent: {}
+[25.275016] (-) TimerEvent: {}
+[25.375305] (-) TimerEvent: {}
+[25.475611] (-) TimerEvent: {}
+[25.575902] (-) TimerEvent: {}
+[25.676176] (-) TimerEvent: {}
+[25.776444] (-) TimerEvent: {}
+[25.876737] (-) TimerEvent: {}
+[25.977065] (-) TimerEvent: {}
+[26.077329] (-) TimerEvent: {}
+[26.177616] (-) TimerEvent: {}
+[26.277914] (-) TimerEvent: {}
+[26.378307] (-) TimerEvent: {}
+[26.478814] (-) TimerEvent: {}
+[26.579134] (-) TimerEvent: {}
+[26.679441] (-) TimerEvent: {}
+[26.779762] (-) TimerEvent: {}
+[26.880079] (-) TimerEvent: {}
+[26.980421] (-) TimerEvent: {}
+[27.080805] (-) TimerEvent: {}
+[27.181184] (-) TimerEvent: {}
+[27.281510] (-) TimerEvent: {}
+[27.381832] (-) TimerEvent: {}
+[27.482129] (-) TimerEvent: {}
+[27.582430] (-) TimerEvent: {}
+[27.682796] (-) TimerEvent: {}
+[27.703307] (car_gazebo_plugin) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX shared library libcar_gazebo_plugin.so\x1b[0m\n'}
+[27.782910] (-) TimerEvent: {}
+[27.883206] (-) TimerEvent: {}
+[27.983552] (-) TimerEvent: {}
+[28.084026] (-) TimerEvent: {}
+[28.184415] (-) TimerEvent: {}
+[28.284767] (-) TimerEvent: {}
+[28.385173] (-) TimerEvent: {}
+[28.485568] (-) TimerEvent: {}
+[28.585942] (-) TimerEvent: {}
+[28.686300] (-) TimerEvent: {}
+[28.786638] (-) TimerEvent: {}
+[28.886904] (-) TimerEvent: {}
+[28.987163] (-) TimerEvent: {}
+[29.087443] (-) TimerEvent: {}
+[29.187730] (-) TimerEvent: {}
+[29.287993] (-) TimerEvent: {}
+[29.305249] (car_gazebo_plugin) StdoutLine: {'line': b'[100%] Built target car_gazebo_plugin\n'}
+[29.315906] (car_gazebo_plugin) CommandEnded: {'returncode': 0}
+[29.341168] (car_gazebo_plugin) JobProgress: {'identifier': 'car_gazebo_plugin', 'progress': 'install'}
+[29.341581] (car_gazebo_plugin) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/carloso/ros2_ws_23_2/build/car_gazebo_plugin'], 'cwd': '/home/carloso/ros2_ws_23_2/build/car_gazebo_plugin', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'es_CO:es'), ('USER', 'carloso'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/carloso'), ('OLDPWD', '/home/carloso'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1067'), ('SYSTEMD_EXEC_PID', '1227'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '13331'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/carloso/ros2_ws_23_2/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'carloso'), ('JOURNAL_STREAM', '8:28196'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'carloso'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/carloso-TUF-GAMING-FX504GE-FX80GE:@/tmp/.ICE-unix/1203,unix/carloso-TUF-GAMING-FX504GE-FX80GE:/tmp/.ICE-unix/1203'), ('INVOCATION_ID', '01a5a4313dc34f5ab0bbcabb526dd6e1'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'es_CO.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.97BGA2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/carloso/ros2_ws_23_2/install/turtle_move_pkg_gYY:/home/carloso/ros2_ws_23_2/install/sim_car:/home/carloso/ros2_ws_23_2/install/launch_pkg_gYY:/home/carloso/ros2_ws_23_2/install/joy_tester:/home/carloso/ros2_ws_23_2/install/f1_12th_simulator_g01:/home/carloso/ros2_ws_23_2/install/car_gazebo_plugin:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:a6d280a3-0efb-4687-aefd-fe7ee8b2b0fe'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/carloso/ros2_ws_23_2/build/car_gazebo_plugin'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/carloso/ros2_ws_23_2/build/turtle_move_pkg_gYY:/home/carloso/ros2_ws_23_2/install/turtle_move_pkg_gYY/lib/python3.10/site-packages:/home/carloso/ros2_ws_23_2/build/launch_pkg_gYY:/home/carloso/ros2_ws_23_2/install/launch_pkg_gYY/lib/python3.10/site-packages:/home/carloso/ros2_ws_23_2/build/joy_tester:/home/carloso/ros2_ws_23_2/install/joy_tester/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/carloso/ros2_ws_23_2/install/sim_car:/home/carloso/ros2_ws_23_2/install/f1_12th_simulator_g01:/home/carloso/ros2_ws_23_2/install/car_gazebo_plugin:/home/carloso/ros2_ws_23_2/install/turtle_move_pkg_gYY:/home/carloso/ros2_ws_23_2/install/launch_pkg_gYY:/home/carloso/ros2_ws_23_2/install/joy_tester:/opt/ros/humble')]), 'shell': False}
+[29.349041] (car_gazebo_plugin) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[29.349744] (car_gazebo_plugin) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[29.350168] (car_gazebo_plugin) StdoutLine: {'line': b'-- Symlinking: /home/carloso/ros2_ws_23_2/install/car_gazebo_plugin/share/car_gazebo_plugin/libcar_gazebo_plugin.so\n'}
+[29.358024] (car_gazebo_plugin) StdoutLine: {'line': b'-- Symlinking: /home/carloso/ros2_ws_23_2/install/car_gazebo_plugin/share/ament_index/resource_index/package_run_dependencies/car_gazebo_plugin\n'}
+[29.365735] (car_gazebo_plugin) StdoutLine: {'line': b'-- Symlinking: /home/carloso/ros2_ws_23_2/install/car_gazebo_plugin/share/ament_index/resource_index/parent_prefix_path/car_gazebo_plugin\n'}
+[29.373371] (car_gazebo_plugin) StdoutLine: {'line': b'-- Symlinking: /home/carloso/ros2_ws_23_2/install/car_gazebo_plugin/share/car_gazebo_plugin/environment/ament_prefix_path.sh\n'}
+[29.380908] (car_gazebo_plugin) StdoutLine: {'line': b'-- Symlinking: /home/carloso/ros2_ws_23_2/install/car_gazebo_plugin/share/car_gazebo_plugin/environment/ament_prefix_path.dsv\n'}
+[29.388070] (-) TimerEvent: {}
+[29.388502] (car_gazebo_plugin) StdoutLine: {'line': b'-- Symlinking: /home/carloso/ros2_ws_23_2/install/car_gazebo_plugin/share/car_gazebo_plugin/environment/path.sh\n'}
+[29.396197] (car_gazebo_plugin) StdoutLine: {'line': b'-- Symlinking: /home/carloso/ros2_ws_23_2/install/car_gazebo_plugin/share/car_gazebo_plugin/environment/path.dsv\n'}
+[29.404196] (car_gazebo_plugin) StdoutLine: {'line': b'-- Symlinking: /home/carloso/ros2_ws_23_2/install/car_gazebo_plugin/share/car_gazebo_plugin/local_setup.bash\n'}
+[29.411717] (car_gazebo_plugin) StdoutLine: {'line': b'-- Symlinking: /home/carloso/ros2_ws_23_2/install/car_gazebo_plugin/share/car_gazebo_plugin/local_setup.sh\n'}
+[29.420637] (car_gazebo_plugin) StdoutLine: {'line': b'-- Symlinking: /home/carloso/ros2_ws_23_2/install/car_gazebo_plugin/share/car_gazebo_plugin/local_setup.zsh\n'}
+[29.428732] (car_gazebo_plugin) StdoutLine: {'line': b'-- Symlinking: /home/carloso/ros2_ws_23_2/install/car_gazebo_plugin/share/car_gazebo_plugin/local_setup.dsv\n'}
+[29.436779] (car_gazebo_plugin) StdoutLine: {'line': b'-- Symlinking: /home/carloso/ros2_ws_23_2/install/car_gazebo_plugin/share/car_gazebo_plugin/package.dsv\n'}
+[29.444405] (car_gazebo_plugin) StdoutLine: {'line': b'-- Symlinking: /home/carloso/ros2_ws_23_2/install/car_gazebo_plugin/share/ament_index/resource_index/packages/car_gazebo_plugin\n'}
+[29.452179] (car_gazebo_plugin) StdoutLine: {'line': b'-- Symlinking: /home/carloso/ros2_ws_23_2/install/car_gazebo_plugin/share/car_gazebo_plugin/cmake/car_gazebo_pluginConfig.cmake\n'}
+[29.459785] (car_gazebo_plugin) StdoutLine: {'line': b'-- Symlinking: /home/carloso/ros2_ws_23_2/install/car_gazebo_plugin/share/car_gazebo_plugin/cmake/car_gazebo_pluginConfig-version.cmake\n'}
+[29.467529] (car_gazebo_plugin) StdoutLine: {'line': b'-- Symlinking: /home/carloso/ros2_ws_23_2/install/car_gazebo_plugin/share/car_gazebo_plugin/package.xml\n'}
+[29.478231] (car_gazebo_plugin) CommandEnded: {'returncode': 0}
+[29.488142] (-) TimerEvent: {}
+[29.516660] (car_gazebo_plugin) JobEnded: {'identifier': 'car_gazebo_plugin', 'rc': 0}
+[29.517546] (-) EventReactorShutdown: {}

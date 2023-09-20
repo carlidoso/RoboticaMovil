@@ -1,0 +1,50 @@
+[0.417s] Invoking command in '/home/carloso/ros2_ws_23_2/build/f1_12th_simulator_g01': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/carloso/ros2_ws_23_2/install/turtle_move_pkg_gYY:/home/carloso/ros2_ws_23_2/install/launch_pkg_gYY:/home/carloso/ros2_ws_23_2/install/joy_tester:/opt/ros/humble /usr/bin/cmake --build /home/carloso/ros2_ws_23_2/build/f1_12th_simulator_g01 -- -j8 -l8
+[7.176s] -- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+[7.176s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[7.176s] -- Found ament_lint_auto: 0.12.7 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[7.177s] -- Added test 'copyright' to check source files copyright and LICENSE
+[7.177s] -- Added test 'flake8' to check Python code syntax and style conventions
+[7.178s] -- Added test 'lint_cmake' to check CMake code style
+[7.178s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[7.182s] -- Added test 'xmllint' to check XML markup files
+[7.186s] -- Configuring done
+[7.187s] -- Generating done
+[7.188s] -- Build files have been written to: /home/carloso/ros2_ws_23_2/build/f1_12th_simulator_g01
+[7.202s] Invoked command in '/home/carloso/ros2_ws_23_2/build/f1_12th_simulator_g01' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/carloso/ros2_ws_23_2/install/turtle_move_pkg_gYY:/home/carloso/ros2_ws_23_2/install/launch_pkg_gYY:/home/carloso/ros2_ws_23_2/install/joy_tester:/opt/ros/humble /usr/bin/cmake --build /home/carloso/ros2_ws_23_2/build/f1_12th_simulator_g01 -- -j8 -l8
+[7.556s] Invoking command in '/home/carloso/ros2_ws_23_2/build/f1_12th_simulator_g01': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/carloso/ros2_ws_23_2/install/turtle_move_pkg_gYY:/home/carloso/ros2_ws_23_2/install/launch_pkg_gYY:/home/carloso/ros2_ws_23_2/install/joy_tester:/opt/ros/humble /usr/bin/cmake --install /home/carloso/ros2_ws_23_2/build/f1_12th_simulator_g01
+[7.645s] -- Install configuration: ""
+[7.645s] -- Execute custom install script
+[7.646s] -- Up-to-date symlink: /home/carloso/ros2_ws_23_2/install/f1_12th_simulator_g01/share/f1_12th_simulator_g01/config/empty.yaml
+[7.646s] -- Up-to-date symlink: /home/carloso/ros2_ws_23_2/install/f1_12th_simulator_g01/share/f1_12th_simulator_g01/config/gazebo_params.yaml
+[7.646s] -- Up-to-date symlink: /home/carloso/ros2_ws_23_2/install/f1_12th_simulator_g01/share/f1_12th_simulator_g01/config/joystick.yaml
+[7.646s] -- Up-to-date symlink: /home/carloso/ros2_ws_23_2/install/f1_12th_simulator_g01/share/f1_12th_simulator_g01/config/mapper_params_online_async.yaml
+[7.646s] -- Up-to-date symlink: /home/carloso/ros2_ws_23_2/install/f1_12th_simulator_g01/share/f1_12th_simulator_g01/config/my_controllers.yaml
+[7.647s] -- Up-to-date symlink: /home/carloso/ros2_ws_23_2/install/f1_12th_simulator_g01/share/f1_12th_simulator_g01/description/gazebo_control.xacro
+[7.648s] -- Up-to-date symlink: /home/carloso/ros2_ws_23_2/install/f1_12th_simulator_g01/share/f1_12th_simulator_g01/description/inertial_macros.xacro
+[7.654s] -- Up-to-date symlink: /home/carloso/ros2_ws_23_2/install/f1_12th_simulator_g01/share/f1_12th_simulator_g01/description/lidar.xacro
+[7.655s] -- Up-to-date symlink: /home/carloso/ros2_ws_23_2/install/f1_12th_simulator_g01/share/f1_12th_simulator_g01/description/properties.xacro
+[7.656s] -- Up-to-date symlink: /home/carloso/ros2_ws_23_2/install/f1_12th_simulator_g01/share/f1_12th_simulator_g01/description/robot.urdf.xacro
+[7.658s] -- Up-to-date symlink: /home/carloso/ros2_ws_23_2/install/f1_12th_simulator_g01/share/f1_12th_simulator_g01/description/robot_core.xacro
+[7.658s] -- Up-to-date symlink: /home/carloso/ros2_ws_23_2/install/f1_12th_simulator_g01/share/f1_12th_simulator_g01/description/ros2_control.xacro
+[7.659s] -- Up-to-date symlink: /home/carloso/ros2_ws_23_2/install/f1_12th_simulator_g01/share/f1_12th_simulator_g01/description/rviz_model.rviz
+[7.659s] -- Up-to-date symlink: /home/carloso/ros2_ws_23_2/install/f1_12th_simulator_g01/share/f1_12th_simulator_g01/launch/joystick.launch.py
+[7.659s] -- Up-to-date symlink: /home/carloso/ros2_ws_23_2/install/f1_12th_simulator_g01/share/f1_12th_simulator_g01/launch/launch_sim.launch.py
+[7.659s] -- Up-to-date symlink: /home/carloso/ros2_ws_23_2/install/f1_12th_simulator_g01/share/f1_12th_simulator_g01/launch/rsp.launch.py
+[7.659s] -- Up-to-date symlink: /home/carloso/ros2_ws_23_2/install/f1_12th_simulator_g01/share/f1_12th_simulator_g01/worlds/mundo1.world
+[7.659s] -- Up-to-date symlink: /home/carloso/ros2_ws_23_2/install/f1_12th_simulator_g01/share/f1_12th_simulator_g01/worlds/mundo2.world
+[7.659s] -- Up-to-date symlink: /home/carloso/ros2_ws_23_2/install/f1_12th_simulator_g01/share/ament_index/resource_index/package_run_dependencies/f1_12th_simulator_g01
+[7.660s] -- Up-to-date symlink: /home/carloso/ros2_ws_23_2/install/f1_12th_simulator_g01/share/ament_index/resource_index/parent_prefix_path/f1_12th_simulator_g01
+[7.660s] -- Up-to-date symlink: /home/carloso/ros2_ws_23_2/install/f1_12th_simulator_g01/share/f1_12th_simulator_g01/environment/ament_prefix_path.sh
+[7.660s] -- Up-to-date symlink: /home/carloso/ros2_ws_23_2/install/f1_12th_simulator_g01/share/f1_12th_simulator_g01/environment/ament_prefix_path.dsv
+[7.660s] -- Up-to-date symlink: /home/carloso/ros2_ws_23_2/install/f1_12th_simulator_g01/share/f1_12th_simulator_g01/environment/path.sh
+[7.660s] -- Up-to-date symlink: /home/carloso/ros2_ws_23_2/install/f1_12th_simulator_g01/share/f1_12th_simulator_g01/environment/path.dsv
+[7.660s] -- Up-to-date symlink: /home/carloso/ros2_ws_23_2/install/f1_12th_simulator_g01/share/f1_12th_simulator_g01/local_setup.bash
+[7.660s] -- Up-to-date symlink: /home/carloso/ros2_ws_23_2/install/f1_12th_simulator_g01/share/f1_12th_simulator_g01/local_setup.sh
+[7.660s] -- Up-to-date symlink: /home/carloso/ros2_ws_23_2/install/f1_12th_simulator_g01/share/f1_12th_simulator_g01/local_setup.zsh
+[7.660s] -- Up-to-date symlink: /home/carloso/ros2_ws_23_2/install/f1_12th_simulator_g01/share/f1_12th_simulator_g01/local_setup.dsv
+[7.661s] -- Symlinking: /home/carloso/ros2_ws_23_2/install/f1_12th_simulator_g01/share/f1_12th_simulator_g01/package.dsv
+[7.842s] -- Up-to-date symlink: /home/carloso/ros2_ws_23_2/install/f1_12th_simulator_g01/share/ament_index/resource_index/packages/f1_12th_simulator_g01
+[7.842s] -- Up-to-date symlink: /home/carloso/ros2_ws_23_2/install/f1_12th_simulator_g01/share/f1_12th_simulator_g01/cmake/f1_12th_simulator_g01Config.cmake
+[7.842s] -- Up-to-date symlink: /home/carloso/ros2_ws_23_2/install/f1_12th_simulator_g01/share/f1_12th_simulator_g01/cmake/f1_12th_simulator_g01Config-version.cmake
+[7.842s] -- Up-to-date symlink: /home/carloso/ros2_ws_23_2/install/f1_12th_simulator_g01/share/f1_12th_simulator_g01/package.xml
+[7.962s] Invoked command in '/home/carloso/ros2_ws_23_2/build/f1_12th_simulator_g01' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/carloso/ros2_ws_23_2/install/turtle_move_pkg_gYY:/home/carloso/ros2_ws_23_2/install/launch_pkg_gYY:/home/carloso/ros2_ws_23_2/install/joy_tester:/opt/ros/humble /usr/bin/cmake --install /home/carloso/ros2_ws_23_2/build/f1_12th_simulator_g01

@@ -1,0 +1,33 @@
+[0.044s] Invoking command in '/home/carloso/ros2_ws_23_2/build/f1_12th_simulator_g01': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/carloso/ros2_ws_23_2/install/turtle_move_pkg_gYY:/home/carloso/ros2_ws_23_2/install/launch_pkg_gYY:/home/carloso/ros2_ws_23_2/install/joy_tester:/opt/ros/humble /usr/bin/cmake --build /home/carloso/ros2_ws_23_2/build/f1_12th_simulator_g01 -- -j8 -l8
+[0.560s] -- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.561s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.562s] -- Found rclpy: 3.3.9 (/opt/ros/humble/share/rclpy/cmake)
+[0.562s] -- Found sensor_msgs: 4.2.3 (/opt/ros/humble/share/sensor_msgs/cmake)
+[0.562s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.563s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.563s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.563s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.563s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.563s] -- Found ament_lint_auto: 0.12.7 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.563s] -- Added test 'copyright' to check source files copyright and LICENSE
+[0.563s] -- Added test 'flake8' to check Python code syntax and style conventions
+[0.563s] -- Added test 'lint_cmake' to check CMake code style
+[0.564s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[0.572s] -- Added test 'xmllint' to check XML markup files
+[0.573s] -- Configuring done
+[0.576s] [31mCMake Error at CMakeLists.txt:31 (add_executable):
+[0.576s]   Cannot find source file:
+[0.577s] 
+[0.577s]     src/ackerman_node
+[0.577s] 
+[0.577s]   Tried extensions .c .C .c++ .cc .cpp .cxx .cu .mpp .m .M .mm .ixx .cppm .h
+[0.577s]   .hh .h++ .hm .hpp .hxx .in .txx .f .F .for .f77 .f90 .f95 .f03 .hip .ispc
+[0.577s] 
+[0.577s] [0m
+[0.577s] [31mCMake Error at CMakeLists.txt:31 (add_executable):
+[0.577s]   No SOURCES given to target: ackerman_node
+[0.578s] 
+[0.578s] [0m
+[0.578s] [0mCMake Generate step failed.  Build files cannot be regenerated correctly.[0m
+[0.583s] gmake: *** [Makefile:226: cmake_check_build_system] Error 1
+[0.813s] Invoked command in '/home/carloso/ros2_ws_23_2/build/f1_12th_simulator_g01' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/carloso/ros2_ws_23_2/install/turtle_move_pkg_gYY:/home/carloso/ros2_ws_23_2/install/launch_pkg_gYY:/home/carloso/ros2_ws_23_2/install/joy_tester:/opt/ros/humble /usr/bin/cmake --build /home/carloso/ros2_ws_23_2/build/f1_12th_simulator_g01 -- -j8 -l8

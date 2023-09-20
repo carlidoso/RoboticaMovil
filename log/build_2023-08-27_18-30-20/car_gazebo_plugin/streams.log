@@ -1,0 +1,2 @@
+[0.082s] Invoking command in '/home/carloso/ros2_ws_23_2/build/car_gazebo_plugin': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/carloso/ros2_ws_23_2/install/scrips_node:/home/carloso/ros2_ws_23_2/install/turtle_move_pkg_gYY:/home/carloso/ros2_ws_23_2/install/launch_pkg_gYY:/home/carloso/ros2_ws_23_2/install/joy_tester:/opt/ros/humble /usr/bin/cmake --build /home/carloso/ros2_ws_23_2/build/car_gazebo_plugin -- -j8 -l8
+[1.093s] [100%] Built target car_gazebo_plugin

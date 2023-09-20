@@ -1,0 +1,6 @@
+[console_scripts]
+ackerman_node = scrips_node.ackerman_node:main
+laser_node = scrips_node.laser_node:main
+pidWF_node = scrips_node.pidWF_node:main
+stop_node = scrips_node.stop_node:main
+

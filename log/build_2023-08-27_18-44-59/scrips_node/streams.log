@@ -1,0 +1,21 @@
+[1.945s] Invoking command in '/home/carloso/ros2_ws_23_2/build/scrips_node': PYTHONPATH=/home/carloso/ros2_ws_23_2/build/scrips_node/prefix_override:/home/carloso/ros2_ws_23_2/install/scrips_node/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/carloso/ros2_ws_23_2/build/scrips_node/build --no-deps install_data
+[2.273s] running develop
+[2.273s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[2.273s]   warnings.warn(
+[2.275s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[2.275s]   warnings.warn(
+[2.505s] running egg_info
+[2.505s] writing scrips_node.egg-info/PKG-INFO
+[2.505s] writing dependency_links to scrips_node.egg-info/dependency_links.txt
+[2.505s] writing entry points to scrips_node.egg-info/entry_points.txt
+[2.506s] writing requirements to scrips_node.egg-info/requires.txt
+[2.506s] writing top-level names to scrips_node.egg-info/top_level.txt
+[2.507s] reading manifest file 'scrips_node.egg-info/SOURCES.txt'
+[2.508s] writing manifest file 'scrips_node.egg-info/SOURCES.txt'
+[2.509s] running build_ext
+[2.510s] Creating /home/carloso/ros2_ws_23_2/install/scrips_node/lib/python3.10/site-packages/scrips-node.egg-link (link to .)
+[2.510s] Installing scrips_node script to /home/carloso/ros2_ws_23_2/install/scrips_node/lib/scrips_node
+[2.511s] 
+[2.511s] Installed /home/carloso/ros2_ws_23_2/build/scrips_node
+[2.511s] running install_data
+[2.550s] Invoked command in '/home/carloso/ros2_ws_23_2/build/scrips_node' returned '0': PYTHONPATH=/home/carloso/ros2_ws_23_2/build/scrips_node/prefix_override:/home/carloso/ros2_ws_23_2/install/scrips_node/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/carloso/ros2_ws_23_2/build/scrips_node/build --no-deps install_data

@@ -1,0 +1,1 @@
+/home/carloso/ros2_ws_23_2/src/sim_car/car_description/scripts/spawn_bot.py

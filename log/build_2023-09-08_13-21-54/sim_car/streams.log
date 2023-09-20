@@ -1,0 +1,50 @@
+[0.766s] Invoking command in '/home/carloso/ros2_ws_23_2/build/sim_car': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/carloso/ros2_ws_23_2/install/turtle_move_pkg_gYY:/home/carloso/ros2_ws_23_2/install/scrips_node:/home/carloso/ros2_ws_23_2/install/launch_pkg_gYY:/home/carloso/ros2_ws_23_2/install/joy_tester:/opt/ros/humble /usr/bin/cmake --build /home/carloso/ros2_ws_23_2/build/sim_car -- -j8 -l8
+[1.027s] Invoked command in '/home/carloso/ros2_ws_23_2/build/sim_car' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/carloso/ros2_ws_23_2/install/turtle_move_pkg_gYY:/home/carloso/ros2_ws_23_2/install/scrips_node:/home/carloso/ros2_ws_23_2/install/launch_pkg_gYY:/home/carloso/ros2_ws_23_2/install/joy_tester:/opt/ros/humble /usr/bin/cmake --build /home/carloso/ros2_ws_23_2/build/sim_car -- -j8 -l8
+[1.064s] Invoking command in '/home/carloso/ros2_ws_23_2/build/sim_car': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/carloso/ros2_ws_23_2/install/turtle_move_pkg_gYY:/home/carloso/ros2_ws_23_2/install/scrips_node:/home/carloso/ros2_ws_23_2/install/launch_pkg_gYY:/home/carloso/ros2_ws_23_2/install/joy_tester:/opt/ros/humble /usr/bin/cmake --install /home/carloso/ros2_ws_23_2/build/sim_car
+[1.075s] -- Install configuration: ""
+[1.076s] -- Execute custom install script
+[1.076s] -- Up-to-date symlink: /home/carloso/ros2_ws_23_2/install/sim_car/lib/sim_car//convert_xacro.py
+[1.077s] -- Up-to-date symlink: /home/carloso/ros2_ws_23_2/install/sim_car/lib/sim_car//spawn_bot.py
+[1.077s] -- Up-to-date symlink: /home/carloso/ros2_ws_23_2/install/sim_car/lib/sim_car//sentry.py
+[1.077s] -- Up-to-date symlink: /home/carloso/ros2_ws_23_2/install/sim_car/share/sim_car//launch/all.launch.py
+[1.078s] -- Up-to-date symlink: /home/carloso/ros2_ws_23_2/install/sim_car/share/sim_car//launch/blue2.py
+[1.078s] -- Up-to-date symlink: /home/carloso/ros2_ws_23_2/install/sim_car/share/sim_car//launch/blue_launch.py
+[1.078s] -- Up-to-date symlink: /home/carloso/ros2_ws_23_2/install/sim_car/share/sim_car//launch/bringup.launch.py
+[1.078s] -- Up-to-date symlink: /home/carloso/ros2_ws_23_2/install/sim_car/share/sim_car//launch/bringup.launch2.py
+[1.078s] -- Up-to-date symlink: /home/carloso/ros2_ws_23_2/install/sim_car/share/sim_car//launch/spawn_car.launch.py
+[1.079s] -- Up-to-date symlink: /home/carloso/ros2_ws_23_2/install/sim_car/share/sim_car//launch/spawn_red_crash.launch.py
+[1.079s] -- Up-to-date symlink: /home/carloso/ros2_ws_23_2/install/sim_car/share/sim_car//launch/spawn_world.launch.py
+[1.079s] -- Up-to-date symlink: /home/carloso/ros2_ws_23_2/install/sim_car/share/sim_car//config/blue_params.yaml
+[1.079s] -- Up-to-date symlink: /home/carloso/ros2_ws_23_2/install/sim_car/share/sim_car//config/nav2_params.yaml
+[1.079s] -- Up-to-date symlink: /home/carloso/ros2_ws_23_2/install/sim_car/share/sim_car//config/red-crash.rviz
+[1.080s] -- Up-to-date symlink: /home/carloso/ros2_ws_23_2/install/sim_car/share/sim_car//config/teleop_twist_joy.yaml
+[1.080s] -- Up-to-date symlink: /home/carloso/ros2_ws_23_2/install/sim_car/share/sim_car//robot/car.urdf.xacro
+[1.080s] -- Up-to-date symlink: /home/carloso/ros2_ws_23_2/install/sim_car/share/sim_car//robot/red_crash.urdf.xacro
+[1.081s] -- Up-to-date symlink: /home/carloso/ros2_ws_23_2/install/sim_car/share/sim_car//worlds/empty.world
+[1.081s] -- Up-to-date symlink: /home/carloso/ros2_ws_23_2/install/sim_car/share/sim_car//worlds/simple.world
+[1.081s] -- Up-to-date symlink: /home/carloso/ros2_ws_23_2/install/sim_car/share/sim_car//worlds/simple_world_maps/map_1669268298.pgm
+[1.082s] -- Up-to-date symlink: /home/carloso/ros2_ws_23_2/install/sim_car/share/sim_car//worlds/simple_world_maps/map_1669268298.yaml
+[1.082s] -- Up-to-date symlink: /home/carloso/ros2_ws_23_2/install/sim_car/share/sim_car//worlds/simple_world_maps/map_1669312051.pgm
+[1.082s] -- Up-to-date symlink: /home/carloso/ros2_ws_23_2/install/sim_car/share/sim_car//worlds/simple_world_maps/map_1669312051.yaml
+[1.082s] -- Up-to-date symlink: /home/carloso/ros2_ws_23_2/install/sim_car/share/sim_car//scripts/convert_xacro.py
+[1.083s] -- Up-to-date symlink: /home/carloso/ros2_ws_23_2/install/sim_car/share/sim_car//scripts/play.html
+[1.083s] -- Up-to-date symlink: /home/carloso/ros2_ws_23_2/install/sim_car/share/sim_car//scripts/sentry.py
+[1.083s] -- Up-to-date symlink: /home/carloso/ros2_ws_23_2/install/sim_car/share/sim_car//scripts/spawn_bot.py
+[1.083s] -- Up-to-date symlink: /home/carloso/ros2_ws_23_2/install/sim_car/share/sim_car//params/intentionally_empty
+[1.084s] -- Up-to-date symlink: /home/carloso/ros2_ws_23_2/install/sim_car/share/sim_car//behavior_trees/navigate_w_replanning_time2.xml
+[1.084s] -- Up-to-date symlink: /home/carloso/ros2_ws_23_2/install/sim_car/share/ament_index/resource_index/package_run_dependencies/sim_car
+[1.084s] -- Up-to-date symlink: /home/carloso/ros2_ws_23_2/install/sim_car/share/ament_index/resource_index/parent_prefix_path/sim_car
+[1.085s] -- Up-to-date symlink: /home/carloso/ros2_ws_23_2/install/sim_car/share/sim_car/environment/ament_prefix_path.sh
+[1.085s] -- Up-to-date symlink: /home/carloso/ros2_ws_23_2/install/sim_car/share/sim_car/environment/ament_prefix_path.dsv
+[1.085s] -- Up-to-date symlink: /home/carloso/ros2_ws_23_2/install/sim_car/share/sim_car/environment/path.sh
+[1.085s] -- Up-to-date symlink: /home/carloso/ros2_ws_23_2/install/sim_car/share/sim_car/environment/path.dsv
+[1.086s] -- Up-to-date symlink: /home/carloso/ros2_ws_23_2/install/sim_car/share/sim_car/local_setup.bash
+[1.086s] -- Up-to-date symlink: /home/carloso/ros2_ws_23_2/install/sim_car/share/sim_car/local_setup.sh
+[1.086s] -- Up-to-date symlink: /home/carloso/ros2_ws_23_2/install/sim_car/share/sim_car/local_setup.zsh
+[1.087s] -- Up-to-date symlink: /home/carloso/ros2_ws_23_2/install/sim_car/share/sim_car/local_setup.dsv
+[1.087s] -- Symlinking: /home/carloso/ros2_ws_23_2/install/sim_car/share/sim_car/package.dsv
+[1.102s] -- Up-to-date symlink: /home/carloso/ros2_ws_23_2/install/sim_car/share/ament_index/resource_index/packages/sim_car
+[1.102s] -- Up-to-date symlink: /home/carloso/ros2_ws_23_2/install/sim_car/share/sim_car/cmake/sim_carConfig.cmake
+[1.103s] -- Up-to-date symlink: /home/carloso/ros2_ws_23_2/install/sim_car/share/sim_car/cmake/sim_carConfig-version.cmake
+[1.104s] -- Up-to-date symlink: /home/carloso/ros2_ws_23_2/install/sim_car/share/sim_car/package.xml
+[1.125s] Invoked command in '/home/carloso/ros2_ws_23_2/build/sim_car' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/carloso/ros2_ws_23_2/install/turtle_move_pkg_gYY:/home/carloso/ros2_ws_23_2/install/scrips_node:/home/carloso/ros2_ws_23_2/install/launch_pkg_gYY:/home/carloso/ros2_ws_23_2/install/joy_tester:/opt/ros/humble /usr/bin/cmake --install /home/carloso/ros2_ws_23_2/build/sim_car

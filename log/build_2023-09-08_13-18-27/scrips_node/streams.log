@@ -1,0 +1,23 @@
+[1.517s] Invoking command in '/home/carloso/ros2_ws_23_2/build/scrips_node': PYTHONPATH=/home/carloso/ros2_ws_23_2/build/scrips_node/prefix_override:/home/carloso/ros2_ws_23_2/install/scrips_node/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/carloso/ros2_ws_23_2/build/scrips_node/build --no-deps install_data
+[1.798s] running develop
+[1.798s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[1.798s]   warnings.warn(
+[1.801s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[1.801s]   warnings.warn(
+[1.985s] running egg_info
+[1.985s] writing scrips_node.egg-info/PKG-INFO
+[1.986s] writing dependency_links to scrips_node.egg-info/dependency_links.txt
+[1.986s] writing entry points to scrips_node.egg-info/entry_points.txt
+[1.986s] writing requirements to scrips_node.egg-info/requires.txt
+[1.986s] writing top-level names to scrips_node.egg-info/top_level.txt
+[1.988s] reading manifest file 'scrips_node.egg-info/SOURCES.txt'
+[1.988s] writing manifest file 'scrips_node.egg-info/SOURCES.txt'
+[1.990s] running build_ext
+[1.990s] Creating /home/carloso/ros2_ws_23_2/install/scrips_node/lib/python3.10/site-packages/scrips-node.egg-link (link to .)
+[1.990s] Installing ackerman_node script to /home/carloso/ros2_ws_23_2/install/scrips_node/lib/scrips_node
+[1.991s] Installing laser_node script to /home/carloso/ros2_ws_23_2/install/scrips_node/lib/scrips_node
+[1.991s] Installing pidWF_node script to /home/carloso/ros2_ws_23_2/install/scrips_node/lib/scrips_node
+[1.991s] 
+[1.992s] Installed /home/carloso/ros2_ws_23_2/build/scrips_node
+[1.992s] running install_data
+[2.030s] Invoked command in '/home/carloso/ros2_ws_23_2/build/scrips_node' returned '0': PYTHONPATH=/home/carloso/ros2_ws_23_2/build/scrips_node/prefix_override:/home/carloso/ros2_ws_23_2/install/scrips_node/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/carloso/ros2_ws_23_2/build/scrips_node/build --no-deps install_data

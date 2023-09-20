@@ -1,0 +1,27 @@
+[1.115s] Invoking command in '/home/carloso/ros2_ws_23_2/build/launch_pkg_gYY': PYTHONPATH=/home/carloso/ros2_ws_23_2/build/launch_pkg_gYY/prefix_override:/home/carloso/ros2_ws_23_2/install/launch_pkg_gYY/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/carloso/ros2_ws_23_2/build/launch_pkg_gYY/build --no-deps install_data
+[1.358s] running develop
+[1.358s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[1.358s]   warnings.warn(
+[1.360s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[1.360s]   warnings.warn(
+[1.517s] running egg_info
+[1.518s] creating launch_pkg_gYY.egg-info
+[1.518s] writing launch_pkg_gYY.egg-info/PKG-INFO
+[1.518s] writing dependency_links to launch_pkg_gYY.egg-info/dependency_links.txt
+[1.518s] writing entry points to launch_pkg_gYY.egg-info/entry_points.txt
+[1.518s] writing requirements to launch_pkg_gYY.egg-info/requires.txt
+[1.518s] writing top-level names to launch_pkg_gYY.egg-info/top_level.txt
+[1.518s] writing manifest file 'launch_pkg_gYY.egg-info/SOURCES.txt'
+[1.519s] reading manifest file 'launch_pkg_gYY.egg-info/SOURCES.txt'
+[1.520s] writing manifest file 'launch_pkg_gYY.egg-info/SOURCES.txt'
+[1.521s] running build_ext
+[1.521s] Creating /home/carloso/ros2_ws_23_2/install/launch_pkg_gYY/lib/python3.10/site-packages/launch-pkg-gYY.egg-link (link to .)
+[1.522s] 
+[1.522s] Installed /home/carloso/ros2_ws_23_2/build/launch_pkg_gYY
+[1.522s] running install_data
+[1.522s] creating /home/carloso/ros2_ws_23_2/install/launch_pkg_gYY/share/ament_index
+[1.523s] creating /home/carloso/ros2_ws_23_2/install/launch_pkg_gYY/share/ament_index/resource_index
+[1.523s] creating /home/carloso/ros2_ws_23_2/install/launch_pkg_gYY/share/ament_index/resource_index/packages
+[1.523s] copying resource/launch_pkg_gYY -> /home/carloso/ros2_ws_23_2/install/launch_pkg_gYY/share/ament_index/resource_index/packages
+[1.523s] copying package.xml -> /home/carloso/ros2_ws_23_2/install/launch_pkg_gYY/share/launch_pkg_gYY
+[1.548s] Invoked command in '/home/carloso/ros2_ws_23_2/build/launch_pkg_gYY' returned '0': PYTHONPATH=/home/carloso/ros2_ws_23_2/build/launch_pkg_gYY/prefix_override:/home/carloso/ros2_ws_23_2/install/launch_pkg_gYY/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/carloso/ros2_ws_23_2/build/launch_pkg_gYY/build --no-deps install_data

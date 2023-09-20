@@ -1,0 +1,3 @@
+[console_scripts]
+turtle_move_node_gYY = turtle_move_pkg_gYY.turtle_move_node_gYY:main
+

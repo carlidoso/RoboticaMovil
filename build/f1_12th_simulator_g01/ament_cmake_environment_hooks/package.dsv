@@ -1,0 +1,4 @@
+source;share/f1_12th_simulator_g01/local_setup.bash
+source;share/f1_12th_simulator_g01/local_setup.dsv
+source;share/f1_12th_simulator_g01/local_setup.sh
+source;share/f1_12th_simulator_g01/local_setup.zsh

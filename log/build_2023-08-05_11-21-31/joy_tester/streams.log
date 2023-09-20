@@ -1,0 +1,25 @@
+[0.573s] Invoking command in '/home/carloso/ros2_ws_23_2/build/joy_tester': PYTHONPATH=/home/carloso/ros2_ws_23_2/build/joy_tester/prefix_override:/home/carloso/ros2_ws_23_2/install/joy_tester/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/carloso/ros2_ws_23_2/build/joy_tester/build --no-deps install_data
+[0.795s] running develop
+[0.795s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[0.796s]   warnings.warn(
+[0.797s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[0.797s]   warnings.warn(
+[0.850s] /usr/lib/python3/dist-packages/pkg_resources/__init__.py:116: PkgResourcesDeprecationWarning: 1.16.0-unknown is an invalid version and will not be supported in a future release
+[0.850s]   warnings.warn(
+[0.850s] /usr/lib/python3/dist-packages/pkg_resources/__init__.py:116: PkgResourcesDeprecationWarning: 1.1build1 is an invalid version and will not be supported in a future release
+[0.850s]   warnings.warn(
+[0.948s] running egg_info
+[0.948s] writing joy_tester.egg-info/PKG-INFO
+[0.948s] writing dependency_links to joy_tester.egg-info/dependency_links.txt
+[0.948s] writing entry points to joy_tester.egg-info/entry_points.txt
+[0.949s] writing requirements to joy_tester.egg-info/requires.txt
+[0.949s] writing top-level names to joy_tester.egg-info/top_level.txt
+[0.950s] reading manifest file 'joy_tester.egg-info/SOURCES.txt'
+[0.951s] writing manifest file 'joy_tester.egg-info/SOURCES.txt'
+[0.952s] running build_ext
+[0.952s] Creating /home/carloso/ros2_ws_23_2/install/joy_tester/lib/python3.10/site-packages/joy-tester.egg-link (link to .)
+[0.952s] Installing test_joy script to /home/carloso/ros2_ws_23_2/install/joy_tester/lib/joy_tester
+[0.953s] 
+[0.953s] Installed /home/carloso/ros2_ws_23_2/build/joy_tester
+[0.953s] running install_data
+[0.975s] Invoked command in '/home/carloso/ros2_ws_23_2/build/joy_tester' returned '0': PYTHONPATH=/home/carloso/ros2_ws_23_2/build/joy_tester/prefix_override:/home/carloso/ros2_ws_23_2/install/joy_tester/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/carloso/ros2_ws_23_2/build/joy_tester/build --no-deps install_data

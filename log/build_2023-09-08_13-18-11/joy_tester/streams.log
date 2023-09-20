@@ -1,0 +1,21 @@
+[7.717s] Invoking command in '/home/carloso/ros2_ws_23_2/build/joy_tester': PYTHONPATH=/home/carloso/ros2_ws_23_2/build/joy_tester/prefix_override:/home/carloso/ros2_ws_23_2/install/joy_tester/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/carloso/ros2_ws_23_2/build/joy_tester/build --no-deps install_data
+[9.861s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[9.862s]   warnings.warn(
+[9.862s] running develop
+[9.876s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[9.877s]   warnings.warn(
+[11.428s] running egg_info
+[11.438s] writing joy_tester.egg-info/PKG-INFO
+[11.444s] writing dependency_links to joy_tester.egg-info/dependency_links.txt
+[11.444s] writing entry points to joy_tester.egg-info/entry_points.txt
+[11.444s] writing requirements to joy_tester.egg-info/requires.txt
+[11.445s] writing top-level names to joy_tester.egg-info/top_level.txt
+[11.456s] reading manifest file 'joy_tester.egg-info/SOURCES.txt'
+[11.458s] writing manifest file 'joy_tester.egg-info/SOURCES.txt'
+[11.473s] running build_ext
+[11.474s] Creating /home/carloso/ros2_ws_23_2/install/joy_tester/lib/python3.10/site-packages/joy-tester.egg-link (link to .)
+[11.483s] Installing test_joy script to /home/carloso/ros2_ws_23_2/install/joy_tester/lib/joy_tester
+[11.483s] 
+[11.483s] Installed /home/carloso/ros2_ws_23_2/build/joy_tester
+[11.484s] running install_data
+[12.032s] Invoked command in '/home/carloso/ros2_ws_23_2/build/joy_tester' returned '0': PYTHONPATH=/home/carloso/ros2_ws_23_2/build/joy_tester/prefix_override:/home/carloso/ros2_ws_23_2/install/joy_tester/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/carloso/ros2_ws_23_2/build/joy_tester/build --no-deps install_data

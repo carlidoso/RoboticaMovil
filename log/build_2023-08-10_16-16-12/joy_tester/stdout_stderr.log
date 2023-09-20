@@ -1,0 +1,37 @@
+running develop
+/usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+  warnings.warn(
+/usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+  warnings.warn(
+Removing /home/carloso/ros2_ws_23_2/install/joy_tester/lib/python3.10/site-packages/joy-tester.egg-link (link to .)
+running egg_info
+writing ../../build/joy_tester/joy_tester.egg-info/PKG-INFO
+writing dependency_links to ../../build/joy_tester/joy_tester.egg-info/dependency_links.txt
+writing entry points to ../../build/joy_tester/joy_tester.egg-info/entry_points.txt
+writing requirements to ../../build/joy_tester/joy_tester.egg-info/requires.txt
+writing top-level names to ../../build/joy_tester/joy_tester.egg-info/top_level.txt
+reading manifest file '../../build/joy_tester/joy_tester.egg-info/SOURCES.txt'
+adding license file 'LICENSE'
+writing manifest file '../../build/joy_tester/joy_tester.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/carloso/ros2_ws_23_2/build/joy_tester/build
+creating /home/carloso/ros2_ws_23_2/build/joy_tester/build/lib
+creating /home/carloso/ros2_ws_23_2/build/joy_tester/build/lib/joy_tester
+copying joy_tester/__init__.py -> /home/carloso/ros2_ws_23_2/build/joy_tester/build/lib/joy_tester
+copying joy_tester/test_joy.py -> /home/carloso/ros2_ws_23_2/build/joy_tester/build/lib/joy_tester
+running install
+/usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+  warnings.warn(
+running install_lib
+creating /home/carloso/ros2_ws_23_2/install/joy_tester/lib/python3.10/site-packages/joy_tester
+copying /home/carloso/ros2_ws_23_2/build/joy_tester/build/lib/joy_tester/__init__.py -> /home/carloso/ros2_ws_23_2/install/joy_tester/lib/python3.10/site-packages/joy_tester
+copying /home/carloso/ros2_ws_23_2/build/joy_tester/build/lib/joy_tester/test_joy.py -> /home/carloso/ros2_ws_23_2/install/joy_tester/lib/python3.10/site-packages/joy_tester
+byte-compiling /home/carloso/ros2_ws_23_2/install/joy_tester/lib/python3.10/site-packages/joy_tester/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/carloso/ros2_ws_23_2/install/joy_tester/lib/python3.10/site-packages/joy_tester/test_joy.py to test_joy.cpython-310.pyc
+running install_data
+running install_egg_info
+Copying ../../build/joy_tester/joy_tester.egg-info to /home/carloso/ros2_ws_23_2/install/joy_tester/lib/python3.10/site-packages/joy_tester-0.0.2-py3.10.egg-info
+running install_scripts
+Installing test_joy script to /home/carloso/ros2_ws_23_2/install/joy_tester/lib/joy_tester
+writing list of installed files to '/home/carloso/ros2_ws_23_2/build/joy_tester/install.log'

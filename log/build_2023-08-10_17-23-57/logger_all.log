@@ -1,0 +1,261 @@
+[0.281s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--symlink-install']
+[0.281s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=True, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=8, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7f0b5aee3940>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f0b5afcbca0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f0b5afcbca0>>)
+[0.309s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.309s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.309s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.309s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.309s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.309s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.309s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/carloso/ros2_ws_23_2'
+[0.309s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.309s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.309s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.309s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.309s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.309s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.309s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.309s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.309s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.320s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.320s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.320s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.320s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.320s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.320s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.320s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.320s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.320s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.320s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.320s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.320s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.320s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.320s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.320s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.320s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.320s] Level 1:colcon.colcon_core.package_identification:_identify(src/f1_12th_simulator_g01) by extensions ['ignore', 'ignore_ament_install']
+[0.320s] Level 1:colcon.colcon_core.package_identification:_identify(src/f1_12th_simulator_g01) by extension 'ignore'
+[0.320s] Level 1:colcon.colcon_core.package_identification:_identify(src/f1_12th_simulator_g01) by extension 'ignore_ament_install'
+[0.320s] Level 1:colcon.colcon_core.package_identification:_identify(src/f1_12th_simulator_g01) by extensions ['colcon_pkg']
+[0.320s] Level 1:colcon.colcon_core.package_identification:_identify(src/f1_12th_simulator_g01) by extension 'colcon_pkg'
+[0.320s] Level 1:colcon.colcon_core.package_identification:_identify(src/f1_12th_simulator_g01) by extensions ['colcon_meta']
+[0.321s] Level 1:colcon.colcon_core.package_identification:_identify(src/f1_12th_simulator_g01) by extension 'colcon_meta'
+[0.321s] Level 1:colcon.colcon_core.package_identification:_identify(src/f1_12th_simulator_g01) by extensions ['ros']
+[0.321s] Level 1:colcon.colcon_core.package_identification:_identify(src/f1_12th_simulator_g01) by extension 'ros'
+[0.323s] DEBUG:colcon.colcon_core.package_identification:Package 'src/f1_12th_simulator_g01' with type 'ros.ament_cmake' and name 'f1_12th_simulator_g01'
+[0.323s] Level 1:colcon.colcon_core.package_identification:_identify(src/joy_tester) by extensions ['ignore', 'ignore_ament_install']
+[0.323s] Level 1:colcon.colcon_core.package_identification:_identify(src/joy_tester) by extension 'ignore'
+[0.323s] Level 1:colcon.colcon_core.package_identification:_identify(src/joy_tester) by extension 'ignore_ament_install'
+[0.323s] Level 1:colcon.colcon_core.package_identification:_identify(src/joy_tester) by extensions ['colcon_pkg']
+[0.323s] Level 1:colcon.colcon_core.package_identification:_identify(src/joy_tester) by extension 'colcon_pkg'
+[0.323s] Level 1:colcon.colcon_core.package_identification:_identify(src/joy_tester) by extensions ['colcon_meta']
+[0.323s] Level 1:colcon.colcon_core.package_identification:_identify(src/joy_tester) by extension 'colcon_meta'
+[0.323s] Level 1:colcon.colcon_core.package_identification:_identify(src/joy_tester) by extensions ['ros']
+[0.323s] Level 1:colcon.colcon_core.package_identification:_identify(src/joy_tester) by extension 'ros'
+[0.324s] DEBUG:colcon.colcon_core.package_identification:Package 'src/joy_tester' with type 'ros.ament_python' and name 'joy_tester'
+[0.324s] Level 1:colcon.colcon_core.package_identification:_identify(src/temp) by extensions ['ignore', 'ignore_ament_install']
+[0.324s] Level 1:colcon.colcon_core.package_identification:_identify(src/temp) by extension 'ignore'
+[0.324s] Level 1:colcon.colcon_core.package_identification:_identify(src/temp) by extension 'ignore_ament_install'
+[0.324s] Level 1:colcon.colcon_core.package_identification:_identify(src/temp) by extensions ['colcon_pkg']
+[0.324s] Level 1:colcon.colcon_core.package_identification:_identify(src/temp) by extension 'colcon_pkg'
+[0.324s] Level 1:colcon.colcon_core.package_identification:_identify(src/temp) by extensions ['colcon_meta']
+[0.324s] Level 1:colcon.colcon_core.package_identification:_identify(src/temp) by extension 'colcon_meta'
+[0.324s] Level 1:colcon.colcon_core.package_identification:_identify(src/temp) by extensions ['ros']
+[0.324s] Level 1:colcon.colcon_core.package_identification:_identify(src/temp) by extension 'ros'
+[0.324s] Level 1:colcon.colcon_core.package_identification:_identify(src/temp) by extensions ['cmake', 'python']
+[0.324s] Level 1:colcon.colcon_core.package_identification:_identify(src/temp) by extension 'cmake'
+[0.324s] Level 1:colcon.colcon_core.package_identification:_identify(src/temp) by extension 'python'
+[0.324s] Level 1:colcon.colcon_core.package_identification:_identify(src/temp) by extensions ['python_setup_py']
+[0.324s] Level 1:colcon.colcon_core.package_identification:_identify(src/temp) by extension 'python_setup_py'
+[0.324s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtle_move_pkg_gYY) by extensions ['ignore', 'ignore_ament_install']
+[0.324s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtle_move_pkg_gYY) by extension 'ignore'
+[0.324s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtle_move_pkg_gYY) by extension 'ignore_ament_install'
+[0.324s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtle_move_pkg_gYY) by extensions ['colcon_pkg']
+[0.324s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtle_move_pkg_gYY) by extension 'colcon_pkg'
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtle_move_pkg_gYY) by extensions ['colcon_meta']
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtle_move_pkg_gYY) by extension 'colcon_meta'
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtle_move_pkg_gYY) by extensions ['ros']
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtle_move_pkg_gYY) by extension 'ros'
+[0.325s] DEBUG:colcon.colcon_core.package_identification:Package 'src/turtle_move_pkg_gYY' with type 'ros.ament_python' and name 'turtle_move_pkg_gYY'
+[0.325s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.325s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.325s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.325s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.325s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.346s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.346s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.348s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 3 installed packages in /home/carloso/ros2_ws_23_2/install
+[0.350s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 390 installed packages in /opt/ros/humble
+[0.352s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.417s] Level 5:colcon.colcon_core.verb:set package 'f1_12th_simulator_g01' build argument 'cmake_args' from command line to 'None'
+[0.417s] Level 5:colcon.colcon_core.verb:set package 'f1_12th_simulator_g01' build argument 'cmake_target' from command line to 'None'
+[0.417s] Level 5:colcon.colcon_core.verb:set package 'f1_12th_simulator_g01' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.417s] Level 5:colcon.colcon_core.verb:set package 'f1_12th_simulator_g01' build argument 'cmake_clean_cache' from command line to 'False'
+[0.417s] Level 5:colcon.colcon_core.verb:set package 'f1_12th_simulator_g01' build argument 'cmake_clean_first' from command line to 'False'
+[0.417s] Level 5:colcon.colcon_core.verb:set package 'f1_12th_simulator_g01' build argument 'cmake_force_configure' from command line to 'False'
+[0.417s] Level 5:colcon.colcon_core.verb:set package 'f1_12th_simulator_g01' build argument 'ament_cmake_args' from command line to 'None'
+[0.417s] Level 5:colcon.colcon_core.verb:set package 'f1_12th_simulator_g01' build argument 'catkin_cmake_args' from command line to 'None'
+[0.417s] Level 5:colcon.colcon_core.verb:set package 'f1_12th_simulator_g01' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.417s] DEBUG:colcon.colcon_core.verb:Building package 'f1_12th_simulator_g01' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/carloso/ros2_ws_23_2/build/f1_12th_simulator_g01', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/carloso/ros2_ws_23_2/install/f1_12th_simulator_g01', 'merge_install': False, 'path': '/home/carloso/ros2_ws_23_2/src/f1_12th_simulator_g01', 'symlink_install': True, 'test_result_base': None}
+[0.418s] Level 5:colcon.colcon_core.verb:set package 'joy_tester' build argument 'cmake_args' from command line to 'None'
+[0.418s] Level 5:colcon.colcon_core.verb:set package 'joy_tester' build argument 'cmake_target' from command line to 'None'
+[0.418s] Level 5:colcon.colcon_core.verb:set package 'joy_tester' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.418s] Level 5:colcon.colcon_core.verb:set package 'joy_tester' build argument 'cmake_clean_cache' from command line to 'False'
+[0.418s] Level 5:colcon.colcon_core.verb:set package 'joy_tester' build argument 'cmake_clean_first' from command line to 'False'
+[0.418s] Level 5:colcon.colcon_core.verb:set package 'joy_tester' build argument 'cmake_force_configure' from command line to 'False'
+[0.418s] Level 5:colcon.colcon_core.verb:set package 'joy_tester' build argument 'ament_cmake_args' from command line to 'None'
+[0.418s] Level 5:colcon.colcon_core.verb:set package 'joy_tester' build argument 'catkin_cmake_args' from command line to 'None'
+[0.418s] Level 5:colcon.colcon_core.verb:set package 'joy_tester' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.418s] DEBUG:colcon.colcon_core.verb:Building package 'joy_tester' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/carloso/ros2_ws_23_2/build/joy_tester', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/carloso/ros2_ws_23_2/install/joy_tester', 'merge_install': False, 'path': '/home/carloso/ros2_ws_23_2/src/joy_tester', 'symlink_install': True, 'test_result_base': None}
+[0.419s] Level 5:colcon.colcon_core.verb:set package 'turtle_move_pkg_gYY' build argument 'cmake_args' from command line to 'None'
+[0.419s] Level 5:colcon.colcon_core.verb:set package 'turtle_move_pkg_gYY' build argument 'cmake_target' from command line to 'None'
+[0.419s] Level 5:colcon.colcon_core.verb:set package 'turtle_move_pkg_gYY' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.419s] Level 5:colcon.colcon_core.verb:set package 'turtle_move_pkg_gYY' build argument 'cmake_clean_cache' from command line to 'False'
+[0.419s] Level 5:colcon.colcon_core.verb:set package 'turtle_move_pkg_gYY' build argument 'cmake_clean_first' from command line to 'False'
+[0.419s] Level 5:colcon.colcon_core.verb:set package 'turtle_move_pkg_gYY' build argument 'cmake_force_configure' from command line to 'False'
+[0.419s] Level 5:colcon.colcon_core.verb:set package 'turtle_move_pkg_gYY' build argument 'ament_cmake_args' from command line to 'None'
+[0.419s] Level 5:colcon.colcon_core.verb:set package 'turtle_move_pkg_gYY' build argument 'catkin_cmake_args' from command line to 'None'
+[0.419s] Level 5:colcon.colcon_core.verb:set package 'turtle_move_pkg_gYY' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.419s] DEBUG:colcon.colcon_core.verb:Building package 'turtle_move_pkg_gYY' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/carloso/ros2_ws_23_2/build/turtle_move_pkg_gYY', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/carloso/ros2_ws_23_2/install/turtle_move_pkg_gYY', 'merge_install': False, 'path': '/home/carloso/ros2_ws_23_2/src/turtle_move_pkg_gYY', 'symlink_install': True, 'test_result_base': None}
+[0.420s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.423s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.423s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/carloso/ros2_ws_23_2/src/f1_12th_simulator_g01' with build type 'ament_cmake'
+[0.423s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/carloso/ros2_ws_23_2/src/f1_12th_simulator_g01'
+[0.427s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.427s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.427s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.431s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/carloso/ros2_ws_23_2/src/joy_tester' with build type 'ament_python'
+[0.431s] Level 1:colcon.colcon_core.shell:create_environment_hook('joy_tester', 'ament_prefix_path')
+[0.432s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/carloso/ros2_ws_23_2/install/joy_tester/share/joy_tester/hook/ament_prefix_path.ps1'
+[0.433s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/carloso/ros2_ws_23_2/install/joy_tester/share/joy_tester/hook/ament_prefix_path.dsv'
+[0.433s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/carloso/ros2_ws_23_2/install/joy_tester/share/joy_tester/hook/ament_prefix_path.sh'
+[0.435s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.435s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.439s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/carloso/ros2_ws_23_2/src/turtle_move_pkg_gYY' with build type 'ament_python'
+[0.439s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtle_move_pkg_gYY', 'ament_prefix_path')
+[0.440s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/carloso/ros2_ws_23_2/install/turtle_move_pkg_gYY/share/turtle_move_pkg_gYY/hook/ament_prefix_path.ps1'
+[0.441s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/carloso/ros2_ws_23_2/install/turtle_move_pkg_gYY/share/turtle_move_pkg_gYY/hook/ament_prefix_path.dsv'
+[0.441s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/carloso/ros2_ws_23_2/install/turtle_move_pkg_gYY/share/turtle_move_pkg_gYY/hook/ament_prefix_path.sh'
+[0.442s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.442s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.451s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/carloso/ros2_ws_23_2/build/f1_12th_simulator_g01': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/carloso/ros2_ws_23_2/install/turtle_move_pkg_gYY:/home/carloso/ros2_ws_23_2/install/joy_tester:/opt/ros/humble /usr/bin/cmake --build /home/carloso/ros2_ws_23_2/build/f1_12th_simulator_g01 -- -j8 -l8
+[0.679s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/carloso/ros2_ws_23_2/src/joy_tester'
+[0.680s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.680s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.924s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/carloso/ros2_ws_23_2/src/turtle_move_pkg_gYY'
+[0.925s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.925s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.931s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/carloso/ros2_ws_23_2/build/f1_12th_simulator_g01' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/carloso/ros2_ws_23_2/install/turtle_move_pkg_gYY:/home/carloso/ros2_ws_23_2/install/joy_tester:/opt/ros/humble /usr/bin/cmake --build /home/carloso/ros2_ws_23_2/build/f1_12th_simulator_g01 -- -j8 -l8
+[0.968s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/carloso/ros2_ws_23_2/build/f1_12th_simulator_g01': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/carloso/ros2_ws_23_2/install/turtle_move_pkg_gYY:/home/carloso/ros2_ws_23_2/install/joy_tester:/opt/ros/humble /usr/bin/cmake --install /home/carloso/ros2_ws_23_2/build/f1_12th_simulator_g01
+[0.994s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(f1_12th_simulator_g01)
+[0.997s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/carloso/ros2_ws_23_2/build/f1_12th_simulator_g01' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/carloso/ros2_ws_23_2/install/turtle_move_pkg_gYY:/home/carloso/ros2_ws_23_2/install/joy_tester:/opt/ros/humble /usr/bin/cmake --install /home/carloso/ros2_ws_23_2/build/f1_12th_simulator_g01
+[1.001s] Level 1:colcon.colcon_core.environment:checking '/home/carloso/ros2_ws_23_2/install/f1_12th_simulator_g01' for CMake module files
+[1.002s] Level 1:colcon.colcon_core.environment:checking '/home/carloso/ros2_ws_23_2/install/f1_12th_simulator_g01' for CMake config files
+[1.002s] Level 1:colcon.colcon_core.shell:create_environment_hook('f1_12th_simulator_g01', 'cmake_prefix_path')
+[1.004s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/carloso/ros2_ws_23_2/install/f1_12th_simulator_g01/share/f1_12th_simulator_g01/hook/cmake_prefix_path.ps1'
+[1.005s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/carloso/ros2_ws_23_2/install/f1_12th_simulator_g01/share/f1_12th_simulator_g01/hook/cmake_prefix_path.dsv'
+[1.005s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/carloso/ros2_ws_23_2/install/f1_12th_simulator_g01/share/f1_12th_simulator_g01/hook/cmake_prefix_path.sh'
+[1.006s] Level 1:colcon.colcon_core.environment:checking '/home/carloso/ros2_ws_23_2/install/f1_12th_simulator_g01/bin'
+[1.006s] Level 1:colcon.colcon_core.environment:checking '/home/carloso/ros2_ws_23_2/install/f1_12th_simulator_g01/lib/pkgconfig/f1_12th_simulator_g01.pc'
+[1.007s] Level 1:colcon.colcon_core.environment:checking '/home/carloso/ros2_ws_23_2/install/f1_12th_simulator_g01/lib/python3.10/site-packages'
+[1.007s] Level 1:colcon.colcon_core.environment:checking '/home/carloso/ros2_ws_23_2/install/f1_12th_simulator_g01/bin'
+[1.009s] INFO:colcon.colcon_core.shell:Creating package script '/home/carloso/ros2_ws_23_2/install/f1_12th_simulator_g01/share/f1_12th_simulator_g01/package.ps1'
+[1.010s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/carloso/ros2_ws_23_2/install/f1_12th_simulator_g01/share/f1_12th_simulator_g01/package.dsv'
+[1.011s] INFO:colcon.colcon_core.shell:Creating package script '/home/carloso/ros2_ws_23_2/install/f1_12th_simulator_g01/share/f1_12th_simulator_g01/package.sh'
+[1.012s] INFO:colcon.colcon_core.shell:Creating package script '/home/carloso/ros2_ws_23_2/install/f1_12th_simulator_g01/share/f1_12th_simulator_g01/package.bash'
+[1.013s] INFO:colcon.colcon_core.shell:Creating package script '/home/carloso/ros2_ws_23_2/install/f1_12th_simulator_g01/share/f1_12th_simulator_g01/package.zsh'
+[1.014s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/carloso/ros2_ws_23_2/install/f1_12th_simulator_g01/share/colcon-core/packages/f1_12th_simulator_g01)
+[1.035s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(f1_12th_simulator_g01)
+[1.039s] Level 1:colcon.colcon_core.environment:checking '/home/carloso/ros2_ws_23_2/install/f1_12th_simulator_g01' for CMake module files
+[1.039s] Level 1:colcon.colcon_core.environment:checking '/home/carloso/ros2_ws_23_2/install/f1_12th_simulator_g01' for CMake config files
+[1.040s] Level 1:colcon.colcon_core.shell:create_environment_hook('f1_12th_simulator_g01', 'cmake_prefix_path')
+[1.042s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/carloso/ros2_ws_23_2/install/f1_12th_simulator_g01/share/f1_12th_simulator_g01/hook/cmake_prefix_path.ps1'
+[1.042s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/carloso/ros2_ws_23_2/install/f1_12th_simulator_g01/share/f1_12th_simulator_g01/hook/cmake_prefix_path.dsv'
+[1.042s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/carloso/ros2_ws_23_2/install/f1_12th_simulator_g01/share/f1_12th_simulator_g01/hook/cmake_prefix_path.sh'
+[1.043s] Level 1:colcon.colcon_core.environment:checking '/home/carloso/ros2_ws_23_2/install/f1_12th_simulator_g01/bin'
+[1.043s] Level 1:colcon.colcon_core.environment:checking '/home/carloso/ros2_ws_23_2/install/f1_12th_simulator_g01/lib/pkgconfig/f1_12th_simulator_g01.pc'
+[1.043s] Level 1:colcon.colcon_core.environment:checking '/home/carloso/ros2_ws_23_2/install/f1_12th_simulator_g01/lib/python3.10/site-packages'
+[1.044s] Level 1:colcon.colcon_core.environment:checking '/home/carloso/ros2_ws_23_2/install/f1_12th_simulator_g01/bin'
+[1.046s] INFO:colcon.colcon_core.shell:Creating package script '/home/carloso/ros2_ws_23_2/install/f1_12th_simulator_g01/share/f1_12th_simulator_g01/package.ps1'
+[1.046s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/carloso/ros2_ws_23_2/install/f1_12th_simulator_g01/share/f1_12th_simulator_g01/package.dsv'
+[1.047s] INFO:colcon.colcon_core.shell:Creating package script '/home/carloso/ros2_ws_23_2/install/f1_12th_simulator_g01/share/f1_12th_simulator_g01/package.sh'
+[1.047s] INFO:colcon.colcon_core.shell:Creating package script '/home/carloso/ros2_ws_23_2/install/f1_12th_simulator_g01/share/f1_12th_simulator_g01/package.bash'
+[1.048s] INFO:colcon.colcon_core.shell:Creating package script '/home/carloso/ros2_ws_23_2/install/f1_12th_simulator_g01/share/f1_12th_simulator_g01/package.zsh'
+[1.048s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/carloso/ros2_ws_23_2/install/f1_12th_simulator_g01/share/colcon-core/packages/f1_12th_simulator_g01)
+[1.273s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/carloso/ros2_ws_23_2/build/joy_tester': PYTHONPATH=/home/carloso/ros2_ws_23_2/build/joy_tester/prefix_override:/home/carloso/ros2_ws_23_2/install/joy_tester/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/carloso/ros2_ws_23_2/build/joy_tester/build --no-deps install_data
+[1.293s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/carloso/ros2_ws_23_2/build/turtle_move_pkg_gYY': PYTHONPATH=/home/carloso/ros2_ws_23_2/build/turtle_move_pkg_gYY/prefix_override:/home/carloso/ros2_ws_23_2/install/turtle_move_pkg_gYY/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/carloso/ros2_ws_23_2/build/turtle_move_pkg_gYY/build --no-deps install_data
+[1.698s] Level 1:colcon.colcon_core.shell:create_environment_hook('joy_tester', 'pythonpath_develop')
+[1.699s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/carloso/ros2_ws_23_2/build/joy_tester/share/joy_tester/hook/pythonpath_develop.ps1'
+[1.700s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/carloso/ros2_ws_23_2/build/joy_tester' returned '0': PYTHONPATH=/home/carloso/ros2_ws_23_2/build/joy_tester/prefix_override:/home/carloso/ros2_ws_23_2/install/joy_tester/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/carloso/ros2_ws_23_2/build/joy_tester/build --no-deps install_data
+[1.701s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/carloso/ros2_ws_23_2/build/joy_tester/share/joy_tester/hook/pythonpath_develop.dsv'
+[1.701s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/carloso/ros2_ws_23_2/build/joy_tester/share/joy_tester/hook/pythonpath_develop.sh'
+[1.703s] Level 1:colcon.colcon_core.environment:checking '/home/carloso/ros2_ws_23_2/install/joy_tester' for CMake module files
+[1.704s] Level 1:colcon.colcon_core.environment:checking '/home/carloso/ros2_ws_23_2/install/joy_tester' for CMake config files
+[1.704s] Level 1:colcon.colcon_core.environment:checking '/home/carloso/ros2_ws_23_2/install/joy_tester/lib'
+[1.704s] Level 1:colcon.colcon_core.environment:checking '/home/carloso/ros2_ws_23_2/install/joy_tester/bin'
+[1.704s] Level 1:colcon.colcon_core.environment:checking '/home/carloso/ros2_ws_23_2/install/joy_tester/lib/pkgconfig/joy_tester.pc'
+[1.704s] Level 1:colcon.colcon_core.environment:checking '/home/carloso/ros2_ws_23_2/install/joy_tester/lib/python3.10/site-packages'
+[1.704s] Level 1:colcon.colcon_core.shell:create_environment_hook('joy_tester', 'pythonpath')
+[1.706s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/carloso/ros2_ws_23_2/install/joy_tester/share/joy_tester/hook/pythonpath.ps1'
+[1.706s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/carloso/ros2_ws_23_2/install/joy_tester/share/joy_tester/hook/pythonpath.dsv'
+[1.707s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/carloso/ros2_ws_23_2/install/joy_tester/share/joy_tester/hook/pythonpath.sh'
+[1.707s] Level 1:colcon.colcon_core.environment:checking '/home/carloso/ros2_ws_23_2/install/joy_tester/bin'
+[1.707s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(joy_tester)
+[1.708s] INFO:colcon.colcon_core.shell:Creating package script '/home/carloso/ros2_ws_23_2/install/joy_tester/share/joy_tester/package.ps1'
+[1.709s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/carloso/ros2_ws_23_2/install/joy_tester/share/joy_tester/package.dsv'
+[1.709s] INFO:colcon.colcon_core.shell:Creating package script '/home/carloso/ros2_ws_23_2/install/joy_tester/share/joy_tester/package.sh'
+[1.710s] INFO:colcon.colcon_core.shell:Creating package script '/home/carloso/ros2_ws_23_2/install/joy_tester/share/joy_tester/package.bash'
+[1.710s] INFO:colcon.colcon_core.shell:Creating package script '/home/carloso/ros2_ws_23_2/install/joy_tester/share/joy_tester/package.zsh'
+[1.710s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/carloso/ros2_ws_23_2/install/joy_tester/share/colcon-core/packages/joy_tester)
+[1.724s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtle_move_pkg_gYY', 'pythonpath_develop')
+[1.725s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/carloso/ros2_ws_23_2/build/turtle_move_pkg_gYY/share/turtle_move_pkg_gYY/hook/pythonpath_develop.ps1'
+[1.726s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/carloso/ros2_ws_23_2/build/turtle_move_pkg_gYY' returned '0': PYTHONPATH=/home/carloso/ros2_ws_23_2/build/turtle_move_pkg_gYY/prefix_override:/home/carloso/ros2_ws_23_2/install/turtle_move_pkg_gYY/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/carloso/ros2_ws_23_2/build/turtle_move_pkg_gYY/build --no-deps install_data
+[1.726s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/carloso/ros2_ws_23_2/build/turtle_move_pkg_gYY/share/turtle_move_pkg_gYY/hook/pythonpath_develop.dsv'
+[1.727s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/carloso/ros2_ws_23_2/build/turtle_move_pkg_gYY/share/turtle_move_pkg_gYY/hook/pythonpath_develop.sh'
+[1.729s] Level 1:colcon.colcon_core.environment:checking '/home/carloso/ros2_ws_23_2/install/turtle_move_pkg_gYY' for CMake module files
+[1.729s] Level 1:colcon.colcon_core.environment:checking '/home/carloso/ros2_ws_23_2/install/turtle_move_pkg_gYY' for CMake config files
+[1.729s] Level 1:colcon.colcon_core.environment:checking '/home/carloso/ros2_ws_23_2/install/turtle_move_pkg_gYY/lib'
+[1.730s] Level 1:colcon.colcon_core.environment:checking '/home/carloso/ros2_ws_23_2/install/turtle_move_pkg_gYY/bin'
+[1.730s] Level 1:colcon.colcon_core.environment:checking '/home/carloso/ros2_ws_23_2/install/turtle_move_pkg_gYY/lib/pkgconfig/turtle_move_pkg_gYY.pc'
+[1.730s] Level 1:colcon.colcon_core.environment:checking '/home/carloso/ros2_ws_23_2/install/turtle_move_pkg_gYY/lib/python3.10/site-packages'
+[1.730s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtle_move_pkg_gYY', 'pythonpath')
+[1.731s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/carloso/ros2_ws_23_2/install/turtle_move_pkg_gYY/share/turtle_move_pkg_gYY/hook/pythonpath.ps1'
+[1.731s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/carloso/ros2_ws_23_2/install/turtle_move_pkg_gYY/share/turtle_move_pkg_gYY/hook/pythonpath.dsv'
+[1.731s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/carloso/ros2_ws_23_2/install/turtle_move_pkg_gYY/share/turtle_move_pkg_gYY/hook/pythonpath.sh'
+[1.732s] Level 1:colcon.colcon_core.environment:checking '/home/carloso/ros2_ws_23_2/install/turtle_move_pkg_gYY/bin'
+[1.732s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(turtle_move_pkg_gYY)
+[1.733s] INFO:colcon.colcon_core.shell:Creating package script '/home/carloso/ros2_ws_23_2/install/turtle_move_pkg_gYY/share/turtle_move_pkg_gYY/package.ps1'
+[1.733s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/carloso/ros2_ws_23_2/install/turtle_move_pkg_gYY/share/turtle_move_pkg_gYY/package.dsv'
+[1.734s] INFO:colcon.colcon_core.shell:Creating package script '/home/carloso/ros2_ws_23_2/install/turtle_move_pkg_gYY/share/turtle_move_pkg_gYY/package.sh'
+[1.734s] INFO:colcon.colcon_core.shell:Creating package script '/home/carloso/ros2_ws_23_2/install/turtle_move_pkg_gYY/share/turtle_move_pkg_gYY/package.bash'
+[1.735s] INFO:colcon.colcon_core.shell:Creating package script '/home/carloso/ros2_ws_23_2/install/turtle_move_pkg_gYY/share/turtle_move_pkg_gYY/package.zsh'
+[1.735s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/carloso/ros2_ws_23_2/install/turtle_move_pkg_gYY/share/colcon-core/packages/turtle_move_pkg_gYY)
+[1.735s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[1.735s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[1.736s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[1.736s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[1.742s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[1.742s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[1.742s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[1.752s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[1.754s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/carloso/ros2_ws_23_2/install/local_setup.ps1'
+[1.754s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/carloso/ros2_ws_23_2/install/_local_setup_util_ps1.py'
+[1.755s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/carloso/ros2_ws_23_2/install/setup.ps1'
+[1.757s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/carloso/ros2_ws_23_2/install/local_setup.sh'
+[1.758s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/carloso/ros2_ws_23_2/install/_local_setup_util_sh.py'
+[1.759s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/carloso/ros2_ws_23_2/install/setup.sh'
+[1.760s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/carloso/ros2_ws_23_2/install/local_setup.bash'
+[1.761s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/carloso/ros2_ws_23_2/install/setup.bash'
+[1.762s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/carloso/ros2_ws_23_2/install/local_setup.zsh'
+[1.763s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/carloso/ros2_ws_23_2/install/setup.zsh'

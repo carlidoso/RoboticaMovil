@@ -1,0 +1,13 @@
+package.xml
+setup.cfg
+setup.py
+launch/talker_listener.launch.py
+launch_pkg_gYY/__init__.py
+launch_pkg_gYY.egg-info/PKG-INFO
+launch_pkg_gYY.egg-info/SOURCES.txt
+launch_pkg_gYY.egg-info/dependency_links.txt
+launch_pkg_gYY.egg-info/entry_points.txt
+launch_pkg_gYY.egg-info/requires.txt
+launch_pkg_gYY.egg-info/top_level.txt
+launch_pkg_gYY.egg-info/zip-safe
+resource/launch_pkg_gYY

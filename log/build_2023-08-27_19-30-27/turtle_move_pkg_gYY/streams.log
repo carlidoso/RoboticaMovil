@@ -1,0 +1,21 @@
+[1.731s] Invoking command in '/home/carloso/ros2_ws_23_2/build/turtle_move_pkg_gYY': PYTHONPATH=/home/carloso/ros2_ws_23_2/build/turtle_move_pkg_gYY/prefix_override:/home/carloso/ros2_ws_23_2/install/turtle_move_pkg_gYY/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/carloso/ros2_ws_23_2/build/turtle_move_pkg_gYY/build --no-deps install_data
+[2.033s] running develop
+[2.033s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[2.034s]   warnings.warn(
+[2.035s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[2.035s]   warnings.warn(
+[2.229s] running egg_info
+[2.229s] writing turtle_move_pkg_gYY.egg-info/PKG-INFO
+[2.229s] writing dependency_links to turtle_move_pkg_gYY.egg-info/dependency_links.txt
+[2.229s] writing entry points to turtle_move_pkg_gYY.egg-info/entry_points.txt
+[2.229s] writing requirements to turtle_move_pkg_gYY.egg-info/requires.txt
+[2.229s] writing top-level names to turtle_move_pkg_gYY.egg-info/top_level.txt
+[2.232s] reading manifest file 'turtle_move_pkg_gYY.egg-info/SOURCES.txt'
+[2.233s] writing manifest file 'turtle_move_pkg_gYY.egg-info/SOURCES.txt'
+[2.235s] running build_ext
+[2.235s] Creating /home/carloso/ros2_ws_23_2/install/turtle_move_pkg_gYY/lib/python3.10/site-packages/turtle-move-pkg-gYY.egg-link (link to .)
+[2.236s] Installing turtle_move_node_gYY script to /home/carloso/ros2_ws_23_2/install/turtle_move_pkg_gYY/lib/turtle_move_pkg_gYY
+[2.237s] 
+[2.237s] Installed /home/carloso/ros2_ws_23_2/build/turtle_move_pkg_gYY
+[2.237s] running install_data
+[2.291s] Invoked command in '/home/carloso/ros2_ws_23_2/build/turtle_move_pkg_gYY' returned '0': PYTHONPATH=/home/carloso/ros2_ws_23_2/build/turtle_move_pkg_gYY/prefix_override:/home/carloso/ros2_ws_23_2/install/turtle_move_pkg_gYY/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/carloso/ros2_ws_23_2/build/turtle_move_pkg_gYY/build --no-deps install_data

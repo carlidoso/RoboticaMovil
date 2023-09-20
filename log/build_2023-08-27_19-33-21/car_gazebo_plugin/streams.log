@@ -1,0 +1,23 @@
+[0.065s] Invoking command in '/home/carloso/ros2_ws_23_2/build/car_gazebo_plugin': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/carloso/ros2_ws_23_2/install/turtle_move_pkg_gYY:/home/carloso/ros2_ws_23_2/install/scrips_node:/home/carloso/ros2_ws_23_2/install/launch_pkg_gYY:/home/carloso/ros2_ws_23_2/install/joy_tester:/opt/ros/humble /usr/bin/cmake --build /home/carloso/ros2_ws_23_2/build/car_gazebo_plugin -- -j8 -l8
+[0.885s] [100%] Built target car_gazebo_plugin
+[1.159s] Invoked command in '/home/carloso/ros2_ws_23_2/build/car_gazebo_plugin' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/carloso/ros2_ws_23_2/install/turtle_move_pkg_gYY:/home/carloso/ros2_ws_23_2/install/scrips_node:/home/carloso/ros2_ws_23_2/install/launch_pkg_gYY:/home/carloso/ros2_ws_23_2/install/joy_tester:/opt/ros/humble /usr/bin/cmake --build /home/carloso/ros2_ws_23_2/build/car_gazebo_plugin -- -j8 -l8
+[1.200s] Invoking command in '/home/carloso/ros2_ws_23_2/build/car_gazebo_plugin': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/carloso/ros2_ws_23_2/install/turtle_move_pkg_gYY:/home/carloso/ros2_ws_23_2/install/scrips_node:/home/carloso/ros2_ws_23_2/install/launch_pkg_gYY:/home/carloso/ros2_ws_23_2/install/joy_tester:/opt/ros/humble /usr/bin/cmake --install /home/carloso/ros2_ws_23_2/build/car_gazebo_plugin
+[1.212s] -- Install configuration: ""
+[1.212s] -- Execute custom install script
+[1.221s] -- Up-to-date symlink: /home/carloso/ros2_ws_23_2/install/car_gazebo_plugin/share/car_gazebo_plugin/libcar_gazebo_plugin.so
+[1.221s] -- Up-to-date symlink: /home/carloso/ros2_ws_23_2/install/car_gazebo_plugin/share/ament_index/resource_index/package_run_dependencies/car_gazebo_plugin
+[1.221s] -- Up-to-date symlink: /home/carloso/ros2_ws_23_2/install/car_gazebo_plugin/share/ament_index/resource_index/parent_prefix_path/car_gazebo_plugin
+[1.221s] -- Up-to-date symlink: /home/carloso/ros2_ws_23_2/install/car_gazebo_plugin/share/car_gazebo_plugin/environment/ament_prefix_path.sh
+[1.221s] -- Up-to-date symlink: /home/carloso/ros2_ws_23_2/install/car_gazebo_plugin/share/car_gazebo_plugin/environment/ament_prefix_path.dsv
+[1.222s] -- Up-to-date symlink: /home/carloso/ros2_ws_23_2/install/car_gazebo_plugin/share/car_gazebo_plugin/environment/path.sh
+[1.222s] -- Up-to-date symlink: /home/carloso/ros2_ws_23_2/install/car_gazebo_plugin/share/car_gazebo_plugin/environment/path.dsv
+[1.222s] -- Up-to-date symlink: /home/carloso/ros2_ws_23_2/install/car_gazebo_plugin/share/car_gazebo_plugin/local_setup.bash
+[1.222s] -- Up-to-date symlink: /home/carloso/ros2_ws_23_2/install/car_gazebo_plugin/share/car_gazebo_plugin/local_setup.sh
+[1.222s] -- Up-to-date symlink: /home/carloso/ros2_ws_23_2/install/car_gazebo_plugin/share/car_gazebo_plugin/local_setup.zsh
+[1.222s] -- Up-to-date symlink: /home/carloso/ros2_ws_23_2/install/car_gazebo_plugin/share/car_gazebo_plugin/local_setup.dsv
+[1.222s] -- Symlinking: /home/carloso/ros2_ws_23_2/install/car_gazebo_plugin/share/car_gazebo_plugin/package.dsv
+[1.242s] -- Up-to-date symlink: /home/carloso/ros2_ws_23_2/install/car_gazebo_plugin/share/ament_index/resource_index/packages/car_gazebo_plugin
+[1.242s] -- Up-to-date symlink: /home/carloso/ros2_ws_23_2/install/car_gazebo_plugin/share/car_gazebo_plugin/cmake/car_gazebo_pluginConfig.cmake
+[1.242s] -- Up-to-date symlink: /home/carloso/ros2_ws_23_2/install/car_gazebo_plugin/share/car_gazebo_plugin/cmake/car_gazebo_pluginConfig-version.cmake
+[1.242s] -- Up-to-date symlink: /home/carloso/ros2_ws_23_2/install/car_gazebo_plugin/share/car_gazebo_plugin/package.xml
+[1.242s] Invoked command in '/home/carloso/ros2_ws_23_2/build/car_gazebo_plugin' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/carloso/ros2_ws_23_2/install/turtle_move_pkg_gYY:/home/carloso/ros2_ws_23_2/install/scrips_node:/home/carloso/ros2_ws_23_2/install/launch_pkg_gYY:/home/carloso/ros2_ws_23_2/install/joy_tester:/opt/ros/humble /usr/bin/cmake --install /home/carloso/ros2_ws_23_2/build/car_gazebo_plugin
